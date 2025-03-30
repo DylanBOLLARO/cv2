@@ -1,0 +1,18 @@
+{
+    "a-propos-de-moi": {
+        "name": "À propos",
+        "job": "Développeur Full-Stack React & Nestjs"
+    },
+    "portfolio": {
+        "name": "Portfolio"
+    },
+    "experiences": {
+        "name": "Expériences"
+    },
+    "diplomes-et-formations": {
+        "name": "Formations"
+    },
+    "competences": {
+        "name": "Compétences"
+    }
+}

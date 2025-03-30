@@ -1,0 +1,17 @@
+{
+    "a-propos-de-moi": {
+        "name": "Über mich"
+    },
+    "portfolio": {
+        "name": "Portfolio"
+    },
+    "experiences": {
+        "name": "Erfahrungen"
+    },
+    "diplomes-et-formations": {
+        "name": "Ausbildung"
+    },
+    "competences": {
+        "name": "Fähigkeiten"
+    }
+}

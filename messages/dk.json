@@ -1,0 +1,17 @@
+{
+    "a-propos-de-moi": {
+        "name": "Om mig"
+    },
+    "portfolio": {
+        "name": "Portefølje"
+    },
+    "experiences": {
+        "name": "Erfaringer"
+    },
+    "diplomes-et-formations": {
+        "name": "Uddannelse"
+    },
+    "competences": {
+        "name": "Kompetencer"
+    }
+}

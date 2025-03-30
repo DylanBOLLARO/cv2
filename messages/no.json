@@ -1,0 +1,18 @@
+{
+    "a-propos-de-moi": {
+        "name": "Om meg",
+        "job": "Full-Stack Utvikler React & Nestjs"
+    },
+    "portfolio": {
+        "name": "Portefølje"
+    },
+    "experiences": {
+        "name": "Erfaringer"
+    },
+    "diplomes-et-formations": {
+        "name": "Utdanning"
+    },
+    "competences": {
+        "name": "Ferdigheter"
+    }
+}

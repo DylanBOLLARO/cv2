@@ -120,3 +120,9 @@
         @apply bg-background text-foreground;
     }
 }
+
+@layer components {
+    .link-hover {
+        @apply text-foreground/70 hover:text-foreground duration-100 text-lg font-semibold text-nowrap;
+    }
+}

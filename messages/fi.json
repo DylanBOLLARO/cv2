@@ -1,0 +1,17 @@
+{
+    "a-propos-de-moi": {
+        "name": "Minusta"
+    },
+    "portfolio": {
+        "name": "Portfolio"
+    },
+    "experiences": {
+        "name": "Kokemukset"
+    },
+    "diplomes-et-formations": {
+        "name": "Koulutus"
+    },
+    "competences": {
+        "name": "Taidot"
+    }
+}
