@@ -8,11 +8,19 @@ services:
                 NEXT_PUBLIC_GITHUB: ${NEXT_PUBLIC_GITHUB}
         restart: always
         networks:
-            - nginx_default
+            - vps_nginx_default
         # volumes:
         #   - ./public/CV_BOLLARO_Dylan.pdf:/app/public/CV_BOLLARO_Dylan.pdf
+    cv-nginx:
+        container_name: cv-nginx
+        image: nginx:1.27.3
+        networks:
+            - vps_nginx_default
+        volumes:
+            - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
+        restart: always
 
 networks:
-    nginx_default:
-        name: nginx_default
+    vps_nginx_default:
+        name: vps_nginx_default
         external: true
