@@ -1,0 +1,18 @@
+services:
+  cv:
+    container_name: cv
+    build:
+      context: .
+      args:
+        NEXT_PUBLIC_LINKEDIN: ${NEXT_PUBLIC_LINKEDIN}
+        NEXT_PUBLIC_GITHUB: ${NEXT_PUBLIC_GITHUB}
+    restart: always
+    networks:
+      - nginx_default
+    # volumes:
+    #   - ./public/CV_BOLLARO_Dylan.pdf:/app/public/CV_BOLLARO_Dylan.pdf
+
+  networks:
+    nginx_default:
+      name: nginx_default
+      external: true
