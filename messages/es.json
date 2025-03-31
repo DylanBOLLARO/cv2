@@ -1,17 +1,45 @@
 {
-    "a-propos-de-moi": {
-        "name": "Acerca de mí"
+    "about-me": {
+        "name": "Sobre mí",
+        "job": "Desarrollador Full-Stack React & NestJS",
+        "presentation": "¡Hola👋! Tengo 24 años y soy un desarrollador JavaScript full-stack. Después de obtener mi licenciatura en sistemas electrónicos e informáticos, decidí especializarme en desarrollo web. ¡Ahora tengo casi dos años de experiencia como desarrollador JavaScript full-stack!"
     },
     "portfolio": {
-        "name": "Portafolio"
+        "name": "Portafolio",
+        "overcraft": {
+            "name": "Overcraft",
+            "description": "Overcraft es una plataforma donde los jugadores de StarCraft 2 pueden crear, organizar y compartir sus órdenes de construcción para aprender mejor y optimizar sus estrategias. Ofrece un modo interactivo con un cronómetro para ejecutar las construcciones en tiempo real, así como opciones de personalización y edición."
+        },
+        "web-cv": {
+            "name": "Web CV",
+            "description": "Mi Web CV es una aplicación moderna e interactiva desarrollada con Next.js, que ofrece una navegación fluida y una experiencia optimizada con una interfaz cuidada y modo oscuro. Está diseñado para presentar mi trayectoria profesional de manera dinámica y profesional. 🚀"
+        }
     },
     "experiences": {
-        "name": "Experiencias"
+        "name": "Experiencias",
+        "projet-ulysseus": {
+            "name": "Proyecto Ulysseus",
+            "description": "Lenguajes de programación: C / C++ y VHDL (PIC16, ARDUINO, STM32). Sistema operativo en tiempo real con FreeRTOS. Sistemas operativos: Linux y Windows."
+        }
     },
-    "diplomes-et-formations": {
-        "name": "Formación"
+    "education": {
+        "name": "Formación",
+        "licence": {
+            "name": "Licenciatura en Sistemas Embebidos",
+            "description": "Desarrollo de aplicaciones para la alianza de instituciones Ulysseus. Las principales tecnologías son JavaScript, Python, Linux y Docker."
+        },
+        "bts": {
+            "name": "Técnico Superior en Sistemas Digitales",
+            "description": "Estudio de esquemas, diseño y reparación de placas electrónicas, análisis de señales, programación de Arduino, HTML/CSS."
+        }
     },
     "competences": {
         "name": "Habilidades"
+    },
+    "contact-me": {
+        "name": "¡Envíame un mensaje!",
+        "email": "Correo electrónico",
+        "subject": "Asunto",
+        "message": "Tu mensaje"
     }
 }

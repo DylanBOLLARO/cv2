@@ -1,18 +1,45 @@
 {
-    "a-propos-de-moi": {
+    "about-me": {
         "name": "Om mig",
-        "job": "Full-Stack Utvecklare React & Nestjs"
+        "job": "Fullstackutvecklare React & NestJS",
+        "presentation": "Hej👋! Jag är 24 år gammal och en fullstack JavaScript-utvecklare. Efter att ha tagit min examen i elektronik- och datorsystem valde jag att specialisera mig på webbutveckling. Jag har nu nästan två års erfarenhet som fullstack JavaScript-utvecklare!"
     },
     "portfolio": {
-        "name": "Portfölj"
+        "name": "Portfölj",
+        "overcraft": {
+            "name": "Overcraft",
+            "description": "Overcraft är en plattform där StarCraft 2-spelare kan skapa, organisera och dela sina build orders för att bättre lära sig och optimera sina strategier. Den erbjuder ett interaktivt läge med en timer för att genomföra byggnader i realtid samt anpassnings- och redigeringsalternativ."
+        },
+        "web-cv": {
+            "name": "Webb-CV",
+            "description": "Mitt webb-CV är en modern och interaktiv applikation utvecklad med Next.js, som erbjuder smidig navigering och en optimerad upplevelse med ett snyggt gränssnitt och mörkt läge. Den är designad för att presentera min karriär på ett professionellt och dynamiskt sätt. 🚀"
+        }
     },
     "experiences": {
-        "name": "Erfarenheter"
+        "name": "Erfarenheter",
+        "projet-ulysseus": {
+            "name": "Ulysseus-projektet",
+            "description": "Programmeringsspråk: C / C++ och VHDL (PIC16, ARDUINO, STM32). Realtidsoperativsystem med FreeRTOS. Operativsystem: Linux och Windows."
+        }
     },
-    "diplomes-et-formations": {
-        "name": "Utbildning"
+    "education": {
+        "name": "Utbildning",
+        "licence": {
+            "name": "Kandidatexamen i inbyggda system",
+            "description": "Utveckling av applikationer för alliansen av Ulysseus-institutioner. Huvudteknologierna är JavaScript, Python, Linux och Docker."
+        },
+        "bts": {
+            "name": "Teknikerexamen i digitala system",
+            "description": "Studie av scheman, design och felsökning av elektroniska kretskort, signalanalys, Arduino-programmering, HTML/CSS."
+        }
     },
     "competences": {
         "name": "Färdigheter"
+    },
+    "contact-me": {
+        "name": "Skicka ett meddelande!",
+        "email": "E-post",
+        "subject": "Ämne",
+        "message": "Ditt meddelande"
     }
 }

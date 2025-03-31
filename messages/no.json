@@ -1,18 +1,45 @@
 {
-    "a-propos-de-moi": {
+    "about-me": {
         "name": "Om meg",
-        "job": "Full-Stack Utvikler React & Nestjs"
+        "job": "Fullstack-utvikler React & NestJS",
+        "presentation": "Hei👋! Jeg er 24 år gammel og en fullstack JavaScript-utvikler. Etter å ha fullført utdannelsen min i elektronikk- og datasystemer valgte jeg å spesialisere meg i webutvikling. Jeg har nå nesten to års erfaring som fullstack JavaScript-utvikler!"
     },
     "portfolio": {
-        "name": "Portefølje"
+        "name": "Portefølje",
+        "overcraft": {
+            "name": "Overcraft",
+            "description": "Overcraft er en plattform der StarCraft 2-spillere kan lage, organisere og dele sine build orders for å lære bedre og optimalisere strategiene sine. Den tilbyr en interaktiv modus med en timer for å utføre byggene i sanntid, samt tilpasnings- og redigeringsmuligheter."
+        },
+        "web-cv": {
+            "name": "Web-CV",
+            "description": "Mitt Web-CV er en moderne og interaktiv applikasjon utviklet med Next.js, som gir en smidig navigasjon og en optimalisert opplevelse med et pent grensesnitt og mørk modus. Den er designet for å presentere min karriere på en profesjonell og dynamisk måte. 🚀"
+        }
     },
     "experiences": {
-        "name": "Erfaringer"
+        "name": "Erfaring",
+        "projet-ulysseus": {
+            "name": "Ulysseus-prosjektet",
+            "description": "Programmeringsspråk: C / C++ og VHDL (PIC16, ARDUINO, STM32). Sanntidsoperativsystem med FreeRTOS. Operativsystemer: Linux og Windows."
+        }
     },
-    "diplomes-et-formations": {
-        "name": "Utdanning"
+    "education": {
+        "name": "Utdanning",
+        "licence": {
+            "name": "Bachelorgrad i innebygde systemer",
+            "description": "Utvikling av applikasjoner for Ulysseus-institusjonenes allianse. Hovedteknologiene er JavaScript, Python, Linux og Docker."
+        },
+        "bts": {
+            "name": "Teknisk grad i digitale systemer",
+            "description": "Studie av skjemaer, design og feilsøking av elektroniske kretskort, signalanalyse, Arduino-programmering, HTML/CSS."
+        }
     },
     "competences": {
         "name": "Ferdigheter"
+    },
+    "contact-me": {
+        "name": "Send meg en melding!",
+        "email": "E-post",
+        "subject": "Emne",
+        "message": "Din melding"
     }
 }

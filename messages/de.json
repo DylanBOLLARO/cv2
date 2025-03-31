@@ -1,17 +1,45 @@
 {
-    "a-propos-de-moi": {
-        "name": "Über mich"
+    "about-me": {
+        "name": "Über mich",
+        "job": "Full-Stack-Entwickler React & NestJS",
+        "presentation": "Hallo👋! Ich bin 24 Jahre alt und ein Full-Stack-JavaScript-Entwickler. Nach meinem Abschluss in Elektronik- und Computersystemen habe ich mich auf Webentwicklung spezialisiert. Ich habe jetzt fast zwei Jahre Erfahrung als Full-Stack-JavaScript-Entwickler!"
     },
     "portfolio": {
-        "name": "Portfolio"
+        "name": "Portfolio",
+        "overcraft": {
+            "name": "Overcraft",
+            "description": "Overcraft ist eine Plattform, auf der StarCraft-2-Spieler ihre Build-Orders erstellen, organisieren und teilen können, um ihre Strategien besser zu erlernen und zu optimieren. Es bietet einen interaktiven Modus mit einem Timer, um die Builds in Echtzeit auszuführen, sowie Anpassungs- und Bearbeitungsoptionen."
+        },
+        "web-cv": {
+            "name": "Web-CV",
+            "description": "Mein Web-CV ist eine moderne und interaktive Anwendung, die mit Next.js entwickelt wurde. Sie bietet eine reibungslose Navigation und eine optimierte Benutzererfahrung mit einer gepflegten Oberfläche und einem Dunkelmodus. Sie wurde entwickelt, um meinen beruflichen Werdegang auf professionelle und dynamische Weise darzustellen. 🚀"
+        }
     },
     "experiences": {
-        "name": "Erfahrungen"
+        "name": "Erfahrungen",
+        "projet-ulysseus": {
+            "name": "Ulysseus-Projekt",
+            "description": "Programmiersprachen: C / C++ und VHDL (PIC16, ARDUINO, STM32). Echtzeit-Betriebssystem mit FreeRTOS. Betriebssysteme: Linux und Windows."
+        }
     },
-    "diplomes-et-formations": {
-        "name": "Ausbildung"
+    "education": {
+        "name": "Ausbildung",
+        "licence": {
+            "name": "Bachelor in Eingebetteten Systemen",
+            "description": "Entwicklung von Anwendungen für die Allianz der Ulysseus-Institutionen. Die Haupttechnologien sind JavaScript, Python, Linux und Docker."
+        },
+        "bts": {
+            "name": "Technikerabschluss in digitalen Systemen",
+            "description": "Studium von Schaltplänen, Design und Fehlerbehebung von elektronischen Platinen, Signalverarbeitung, Arduino-Programmierung, HTML/CSS."
+        }
     },
     "competences": {
         "name": "Fähigkeiten"
+    },
+    "contact-me": {
+        "name": "Schreib mir eine Nachricht!",
+        "email": "E-Mail",
+        "subject": "Betreff",
+        "message": "Deine Nachricht"
     }
 }

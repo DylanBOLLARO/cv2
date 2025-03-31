@@ -1,18 +1,46 @@
 {
-    "a-propos-de-moi": {
+    "about-me": {
         "name": "À propos",
-        "job": "Développeur Full-Stack React & Nestjs"
+        "job": "Développeur Full-Stack React & Nestjs",
+        "presentation": "Bonjour👋 J'ai 24 ans et je suis un développeur JavaScript full-stack. Après avoir obtenu ma licence en systèmes électroniques et informatiques, j'ai choisi de me pécialiser dans le développement web. J'ai maintenant près de deux ans d'expérience en tant que développeur JavaScript full-stack !"
     },
     "portfolio": {
-        "name": "Portfolio"
+        "name": "Portfolio",
+        "overcraft": {
+            "name": "Overcraft",
+            "description": "Overcraft est une plateforme où les joueurs de StarCraft 2 peuvent créer, organiser et partager leurs builds orders pour mieux apprendre et optimiser leurs stratégies. Elle propose un mode interactif avec un chronomètre pour exécuter les constructions en temps réel, ainsi que des options de personnalisation et d'édition."
+        },
+        "web-cv": {
+            "name": "Web-cv",
+            "description": "Mon Web CV est une application moderne et interactive développée avec Next.js, offrant une navigation fluide et une expérience optimisée grâce à une interface soignée et un mode sombre, il est conçu pour présenter mon parcours de manière professionnelle et dynamique. 🚀"
+        }
     },
     "experiences": {
-        "name": "Expériences"
+        "name": "Expériences",
+        "projet-ulysseus": {
+            "name": "Projet Ulysseus",
+            "description": "Développement d'applications pour l'alliance d'institutions Ulysseus. Les principales technologies sont JavaScript, Python, Linux et Docker.",
+            "end-date": "maintenant"
+        }
     },
-    "diplomes-et-formations": {
-        "name": "Formations"
+    "education": {
+        "name": "Formations",
+        "licence": {
+            "name": "LICENCE Systèmes Embarqués",
+            "description": "Langages de programmation : C / C++ et VHDL (PIC16, ARDUINO, STM32). OS temps réel avec FreeRTOS. Système d'exploitation Linux et Windows."
+        },
+        "bts": {
+            "name": "BTS Systèmes numériques",
+            "description": "Étude de schémas, conception et dépannage sur cartes électroniques, analyse de signaux, programmation arduino, HTML/CSS."
+        }
     },
     "competences": {
         "name": "Compétences"
+    },
+    "contact-me": {
+        "name": "Envoyer moi un message !",
+        "email": "Email",
+        "subject": "Sujet",
+        "message": "Votre message"
     }
 }

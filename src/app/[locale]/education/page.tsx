@@ -5,22 +5,20 @@ import { useTranslations } from 'next-intl'
 export default function Page() {
     const t = useTranslations()
 
-    const dataPortfolio = [
+    const dataEducation = [
         {
-            title: t('portfolio.overcraft.name'),
-            description: t('portfolio.overcraft.description'),
-            imageSrc: '/oc_main_page.png',
-            badges: ['Frontend', 'Backend', 'DevOps'],
-            leftButton: 'Github',
-            rightButton: 'Overcraft',
+            imageSrc: '/licence.webp',
+            title: t('education.licence.name'),
+            description: t('education.licence.description'),
+            startDate: `2021`,
+            endDate: `2022`,
         },
         {
-            title: t('portfolio.web-cv.name'),
-            description: t('portfolio.web-cv.description'),
-            badges: ['Frontend', 'DevOps'],
-            imageSrc: '/cv_main_page.jpg',
-            leftButton: 'Github',
-            rightButton: 'Web CV',
+            imageSrc: '/bts.jpg',
+            title: t('education.bts.name'),
+            description: t('education.bts.description'),
+            startDate: `2018`,
+            endDate: `2020`,
         },
     ]
 
@@ -29,12 +27,12 @@ export default function Page() {
             <Card>
                 <CardHeader>
                     <CardTitle className="text-md text-center md:text-2xl">
-                        {t('portfolio.name')}
+                        {t('education.name')}
                     </CardTitle>
                 </CardHeader>
             </Card>
             <div className="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
-                {dataPortfolio.map((data) => {
+                {dataEducation.map((data) => {
                     return <BlogCard key={data.title} data={data} />
                 })}
             </div>
