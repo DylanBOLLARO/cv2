@@ -59,7 +59,7 @@ export const ContactMe = () => {
             text,
         })
 
-        if (response.accepted !== undefined) {
+        if (response?.accepted !== undefined) {
             setShowMessage(true)
         }
     }
