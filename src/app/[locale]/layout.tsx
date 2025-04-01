@@ -30,7 +30,12 @@ export default async function LocaleLayout({
         <html lang={locale} suppressHydrationWarning>
             <body className={`${GeistSans.variable} antialiased`}>
                 <NextIntlClientProvider>
-                    <ThemeProvider attribute="class" defaultTheme="system">
+                    <ThemeProvider
+                        attribute="class"
+                        defaultTheme="system"
+                        enableSystem
+                        storageKey={'cv-db'}
+                    >
                         <Header />
                         <div className="container mx-auto p-5">{children}</div>
                     </ThemeProvider>
