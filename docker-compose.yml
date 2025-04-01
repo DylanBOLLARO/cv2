@@ -9,8 +9,8 @@ services:
         restart: always
         networks:
             - vps_nginx_default
-        # volumes:
-        #   - ./public/CV_BOLLARO_Dylan.pdf:/app/public/CV_BOLLARO_Dylan.pdf
+        volumes:
+            - ./public/CV.pdf:/app/public/CV.pdf
     cv-nginx:
         container_name: cv-nginx
         image: nginx:1.27.3
