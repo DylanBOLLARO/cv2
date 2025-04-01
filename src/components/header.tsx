@@ -1,6 +1,6 @@
 'use client'
 
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 import { LangSelector } from './lang-selector'
 import { ModeToggle } from './mode-toggle'
 import { Button } from './ui/button'
@@ -13,42 +13,45 @@ import {
     SheetTitle,
     SheetTrigger,
 } from '@/components/ui/sheet'
+import { DlCvButton } from './dl-cv-button'
+
 export const Header = () => {
     const t = useTranslations()
+    const locale = useLocale()
 
     const menu = [
         {
             title: `${t('about-me.name')}`,
-            url: '/',
+            url: `/${locale}/`,
         },
         {
             title: `${t('portfolio.name')}`,
-            url: '/portfolio',
+            url: `/${locale}/portfolio`,
         },
         {
             title: `${t('experiences.name')}`,
-            url: 'experiences',
+            url: `/${locale}/experiences`,
         },
         {
             title: `${t('education.name')}`,
-            url: '/education',
+            url: `/${locale}/education`,
         },
         {
             title: `${t('contact-me.name')}`,
-            url: '/contact-me',
+            url: `/${locale}/contact-me`,
         },
     ]
 
     return (
         <div className="flex py-3 gap-3 px-5 md:px-20 border-b w-full">
             {/* Mobile Menu */}
-            <div className="block xl:hidden">
+            <div className="block 2xl:hidden">
                 <div className="flex items-center justify-between">
                     <Sheet>
                         <SheetTrigger asChild>
                             <Button
                                 size={'icon'}
-                                className="flex xl:hidden"
+                                className="flex"
                                 variant={'outline'}
                             >
                                 <Menu />
@@ -62,13 +65,14 @@ export const Header = () => {
                             <div className="flex flex-col gap-6 p-4">
                                 {menu.map((item) => renderMobileMenuItem(item))}
                                 <LangSelector />
+                                <DlCvButton />
                             </div>
                         </SheetContent>
                     </Sheet>
                 </div>
             </div>
 
-            <div className="flex-1 gap-10 items-center hidden xl:flex">
+            <div className="flex-1 gap-10 items-center hidden 2xl:flex ">
                 {menu.map((item) => {
                     return (
                         <Link
@@ -81,7 +85,9 @@ export const Header = () => {
                     )
                 })}
             </div>
+
             <div className="flex gap-3 justify-end w-full ">
+                <DlCvButton className="hidden md:flex" />
                 <Button asChild variant={'outline'}>
                     <Link
                         href={`${process.env.NEXT_PUBLIC_LINKEDIN}`}
@@ -99,7 +105,7 @@ export const Header = () => {
                         Github
                     </Link>
                 </Button>
-                <LangSelector className="hidden md:flex" />
+                <LangSelector className="hidden md:flex w-[140px]" />
                 <ModeToggle />
             </div>
         </div>

@@ -30,7 +30,7 @@ export const LangSelector = ({ className }: any) => {
                 redirect(`/${lang}`)
             }}
         >
-            <SelectTrigger className={cn('w-[140px]', className)}>
+            <SelectTrigger className={cn('w-full', className)}>
                 <SelectValue />
             </SelectTrigger>
             <SelectContent>

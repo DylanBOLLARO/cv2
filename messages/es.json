@@ -1,36 +1,37 @@
 {
     "about-me": {
-        "name": "Sobre mí",
+        "name": "Acerca de mí",
         "job": "Desarrollador Full-Stack React & NestJS",
-        "presentation": "¡Hola👋! Tengo 24 años y soy un desarrollador JavaScript full-stack. Después de obtener mi licenciatura en sistemas electrónicos e informáticos, decidí especializarme en desarrollo web. ¡Ahora tengo casi dos años de experiencia como desarrollador JavaScript full-stack!"
+        "presentation": "¡Hola👋! Tengo 24 años y soy un desarrollador full-stack de JavaScript. Después de obtener mi licenciatura en sistemas electrónicos e informáticos, decidí especializarme en desarrollo web. ¡Ahora tengo casi dos años de experiencia como desarrollador full-stack de JavaScript!"
     },
     "portfolio": {
         "name": "Portafolio",
         "overcraft": {
             "name": "Overcraft",
-            "description": "Overcraft es una plataforma donde los jugadores de StarCraft 2 pueden crear, organizar y compartir sus órdenes de construcción para aprender mejor y optimizar sus estrategias. Ofrece un modo interactivo con un cronómetro para ejecutar las construcciones en tiempo real, así como opciones de personalización y edición."
+            "description": "Overcraft es una plataforma donde los jugadores de StarCraft 2 pueden crear, organizar y compartir sus órdenes de construcción para aprender y optimizar mejor sus estrategias. Ofrece un modo interactivo con un cronómetro para ejecutar las construcciones en tiempo real, así como opciones de personalización y edición."
         },
         "web-cv": {
             "name": "Web CV",
-            "description": "Mi Web CV es una aplicación moderna e interactiva desarrollada con Next.js, que ofrece una navegación fluida y una experiencia optimizada con una interfaz cuidada y modo oscuro. Está diseñado para presentar mi trayectoria profesional de manera dinámica y profesional. 🚀"
+            "description": "Mi Web CV es una aplicación moderna e interactiva desarrollada con Next.js, que ofrece una navegación fluida y una experiencia optimizada gracias a una interfaz bien diseñada y un modo oscuro. Está diseñado para presentar mi trayectoria de manera profesional y dinámica. 🚀"
         }
     },
     "experiences": {
-        "name": "Experiencias",
+        "name": "Experiencia",
         "projet-ulysseus": {
             "name": "Proyecto Ulysseus",
-            "description": "Lenguajes de programación: C / C++ y VHDL (PIC16, ARDUINO, STM32). Sistema operativo en tiempo real con FreeRTOS. Sistemas operativos: Linux y Windows."
+            "description": "Desarrollo de aplicaciones para la alianza de instituciones Ulysseus. Las principales tecnologías son JavaScript, Python, Linux y Docker.",
+            "end-date": "ahora"
         }
     },
     "education": {
         "name": "Formación",
         "licence": {
             "name": "Licenciatura en Sistemas Embebidos",
-            "description": "Desarrollo de aplicaciones para la alianza de instituciones Ulysseus. Las principales tecnologías son JavaScript, Python, Linux y Docker."
+            "description": "Lenguajes de programación: C / C++ y VHDL (PIC16, ARDUINO, STM32). Sistema operativo en tiempo real con FreeRTOS. Sistemas operativos: Linux y Windows."
         },
         "bts": {
             "name": "Técnico Superior en Sistemas Digitales",
-            "description": "Estudio de esquemas, diseño y reparación de placas electrónicas, análisis de señales, programación de Arduino, HTML/CSS."
+            "description": "Estudio de esquemas, diseño y reparación de placas electrónicas, análisis de señales, programación con Arduino, HTML/CSS."
         }
     },
     "competences": {
@@ -40,6 +41,10 @@
         "name": "¡Envíame un mensaje!",
         "email": "Correo electrónico",
         "subject": "Asunto",
-        "message": "Tu mensaje"
-    }
+        "message": "Tu mensaje",
+        "send": "Enviar mi mensaje",
+        "sended-email": "¡Tu mensaje ha sido enviado con éxito, gracias! ✨",
+        "back-home-page": "Volver a la página principal"
+    },
+    "cv": "CV tradicional"
 }

@@ -2,35 +2,36 @@
     "about-me": {
         "name": "Chi sono",
         "job": "Sviluppatore Full-Stack React & NestJS",
-        "presentation": "Ciao👋 Ho 24 anni e sono uno sviluppatore full-stack JavaScript. Dopo aver ottenuto la laurea in sistemi elettronici e informatici, ho scelto di specializzarmi nello sviluppo web. Ora ho quasi due anni di esperienza come sviluppatore full-stack JavaScript!"
+        "presentation": "Ciao👋! Ho 24 anni e sono uno sviluppatore full-stack JavaScript. Dopo aver conseguito la laurea in sistemi elettronici e informatici, ho deciso di specializzarmi nello sviluppo web. Ora ho quasi due anni di esperienza come sviluppatore full-stack JavaScript!"
     },
     "portfolio": {
         "name": "Portfolio",
         "overcraft": {
             "name": "Overcraft",
-            "description": "Overcraft è una piattaforma in cui i giocatori di StarCraft 2 possono creare, organizzare e condividere i loro build orders per imparare meglio e ottimizzare le loro strategie. Offre una modalità interattiva con un cronometro per eseguire le costruzioni in tempo reale, oltre a opzioni di personalizzazione e modifica."
+            "description": "Overcraft è una piattaforma in cui i giocatori di StarCraft 2 possono creare, organizzare e condividere i loro build orders per imparare meglio e ottimizzare le loro strategie. Offre una modalità interattiva con un timer per eseguire le build in tempo reale, oltre a opzioni di personalizzazione e modifica."
         },
         "web-cv": {
             "name": "Web CV",
-            "description": "Il mio Web CV è un'applicazione moderna e interattiva sviluppata con Next.js, che offre una navigazione fluida e un'esperienza ottimizzata con un'interfaccia curata e la modalità scura. È progettato per presentare il mio percorso professionale in modo dinamico e professionale. 🚀"
+            "description": "Il mio Web CV è un'applicazione moderna e interattiva sviluppata con Next.js, che offre una navigazione fluida e un'esperienza ottimizzata grazie a un'interfaccia curata e alla modalità scura. È progettato per presentare il mio percorso in modo professionale e dinamico. 🚀"
         }
     },
     "experiences": {
         "name": "Esperienze",
         "projet-ulysseus": {
             "name": "Progetto Ulysseus",
-            "description": "Linguaggi di programmazione: C / C++ e VHDL (PIC16, ARDUINO, STM32). Sistema operativo in tempo reale con FreeRTOS. Sistemi operativi: Linux e Windows."
+            "description": "Sviluppo di applicazioni per l'alleanza di istituzioni Ulysseus. Le principali tecnologie sono JavaScript, Python, Linux e Docker.",
+            "end-date": "ora"
         }
     },
     "education": {
         "name": "Formazione",
         "licence": {
             "name": "Laurea in Sistemi Embedded",
-            "description": "Sviluppo di applicazioni per l'alleanza delle istituzioni Ulysseus. Le principali tecnologie sono JavaScript, Python, Linux e Docker."
+            "description": "Linguaggi di programmazione: C / C++ e VHDL (PIC16, ARDUINO, STM32). Sistema operativo in tempo reale con FreeRTOS. Sistemi operativi: Linux e Windows."
         },
         "bts": {
             "name": "Diploma Tecnico Superiore in Sistemi Digitali",
-            "description": "Studio di schemi, progettazione e riparazione di schede elettroniche, analisi dei segnali, programmazione Arduino, HTML/CSS."
+            "description": "Studio di schemi, progettazione e riparazione di schede elettroniche, analisi di segnali, programmazione Arduino, HTML/CSS."
         }
     },
     "competences": {
@@ -40,6 +41,10 @@
         "name": "Mandami un messaggio!",
         "email": "Email",
         "subject": "Oggetto",
-        "message": "Il tuo messaggio"
-    }
+        "message": "Il tuo messaggio",
+        "send": "Invia il mio messaggio",
+        "sended-email": "Il tuo messaggio è stato inviato con successo, grazie! ✨",
+        "back-home-page": "Torna alla pagina principale"
+    },
+    "cv": "CV tradizionale"
 }

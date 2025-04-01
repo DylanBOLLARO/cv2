@@ -41,6 +41,10 @@
         "name": "Envoyer moi un message !",
         "email": "Email",
         "subject": "Sujet",
-        "message": "Votre message"
-    }
+        "message": "Votre message",
+        "send": "Envoyer mon message",
+        "sended-email": "Votre message a été envoyé avec succès, merci ! ✨",
+        "back-home-page": "Revenir sur la page principale"
+    },
+    "cv": "CV classique"
 }

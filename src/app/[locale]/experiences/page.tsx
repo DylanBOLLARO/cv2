@@ -1,3 +1,5 @@
+'use client'
+
 import { BlogCard } from '@/components/blog-card'
 import { Card, CardHeader, CardTitle } from '@/components/ui/card'
 import { useTranslations } from 'next-intl'

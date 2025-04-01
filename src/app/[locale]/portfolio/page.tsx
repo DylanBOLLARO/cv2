@@ -1,3 +1,5 @@
+'use client'
+
 import { BlogCard } from '@/components/blog-card'
 import { Card, CardHeader, CardTitle } from '@/components/ui/card'
 import { useTranslations } from 'next-intl'
@@ -13,6 +15,8 @@ export default function Page() {
             badges: ['Frontend', 'Backend', 'DevOps'],
             leftButton: 'Github',
             rightButton: 'Overcraft',
+            leftUrl: 'https://github.com/DylanBOLLARO/overcraft-deployment.git',
+            rightUrl: 'https://overcraft.bollarodylan.fr/',
         },
         {
             title: t('portfolio.web-cv.name'),
@@ -21,6 +25,8 @@ export default function Page() {
             imageSrc: '/cv_main_page.jpg',
             leftButton: 'Github',
             rightButton: 'Web CV',
+            leftUrl: 'https://github.com/DylanBOLLARO/cv2',
+            rightUrl: 'https://cv.bollarodylan.fr/fr',
         },
     ]
 

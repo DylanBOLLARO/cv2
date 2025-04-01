@@ -1,36 +1,37 @@
 {
     "about-me": {
         "name": "Tietoja minusta",
-        "job": "Full-Stack-kehittäjä React & NestJS",
-        "presentation": "Hei👋! Olen 24-vuotias ja JavaScript full-stack -kehittäjä. Suoritettuani tutkinnon elektroniikka- ja tietojärjestelmistä päätin erikoistua web-kehitykseen. Minulla on nyt lähes kahden vuoden kokemus full-stack JavaScript -kehittäjänä!"
+        "job": "Fullstack-kehittäjä React & NestJS",
+        "presentation": "Hei👋! Olen 24-vuotias fullstack JavaScript -kehittäjä. Suoritettuani kandidaatin tutkinnon elektroniikka- ja tietojärjestelmistä päätin erikoistua web-kehitykseen. Nyt minulla on lähes kahden vuoden kokemus fullstack JavaScript -kehittäjänä!"
     },
     "portfolio": {
-        "name": "Portfoliosi",
+        "name": "Portfolio",
         "overcraft": {
             "name": "Overcraft",
-            "description": "Overcraft on alusta, jossa StarCraft 2 -pelaajat voivat luoda, järjestää ja jakaa rakennusjärjestyksiään parantaakseen oppimistaan ja optimoidakseen strategioitaan. Se tarjoaa interaktiivisen tilan ajastimella reaaliaikaiseen rakentamiseen sekä muokkaus- ja mukautusvaihtoehtoja."
+            "description": "Overcraft on alusta, jossa StarCraft 2 -pelaajat voivat luoda, järjestellä ja jakaa build order -rakennelmiaan oppiakseen paremmin ja optimoidakseen strategiansa. Se tarjoaa interaktiivisen tilan ajastimella, jolla rakennelmia voidaan suorittaa reaaliajassa, sekä mukautus- ja muokkausvaihtoehtoja."
         },
         "web-cv": {
             "name": "Web-CV",
-            "description": "Web-CV:ni on moderni ja interaktiivinen Next.js:llä kehitetty sovellus, joka tarjoaa sujuvan navigoinnin ja optimoidun käyttökokemuksen huolitellulla käyttöliittymällä ja tummalla tilalla. Se on suunniteltu esittelemään urapolkuni ammattimaisesti ja dynaamisesti. 🚀"
+            "description": "Web-CV:ni on moderni ja interaktiivinen sovellus, joka on kehitetty Next.js:llä. Se tarjoaa sujuvan navigoinnin ja optimoidun käyttökokemuksen tyylikkään käyttöliittymän ja tumman tilan ansiosta. Se on suunniteltu esittelemään urapolkuni ammattimaisesti ja dynaamisesti. 🚀"
         }
     },
     "experiences": {
-        "name": "Kokemukset",
+        "name": "Kokemus",
         "projet-ulysseus": {
             "name": "Ulysseus-projekti",
-            "description": "Ohjelmointikielet: C / C++ ja VHDL (PIC16, ARDUINO, STM32). Reaaliaikainen käyttöjärjestelmä FreeRTOS:lla. Käyttöjärjestelmät: Linux ja Windows."
+            "description": "Sovellusten kehitys Ulysseus-instituutioiden liitolle. Pääteknologiat ovat JavaScript, Python, Linux ja Docker.",
+            "end-date": "nyt"
         }
     },
     "education": {
         "name": "Koulutus",
         "licence": {
-            "name": "Sulatetut järjestelmät -tutkinto",
-            "description": "Sovellusten kehittäminen Ulysseus-instituutioiden liitolle. Pääteknologiat ovat JavaScript, Python, Linux ja Docker."
+            "name": "Kandidaatin tutkinto Sulautetuista Järjestelmistä",
+            "description": "Ohjelmointikielet: C / C++ ja VHDL (PIC16, ARDUINO, STM32). Reaaliaikaiset käyttöjärjestelmät FreeRTOS:lla. Käyttöjärjestelmät: Linux ja Windows."
         },
         "bts": {
-            "name": "Tekninen tutkinto digitaalisista järjestelmistä",
-            "description": "Kaavioiden tutkiminen, piirilevyjen suunnittelu ja vianmääritys, signaalianalyysi, Arduino-ohjelmointi, HTML/CSS."
+            "name": "Tekninen tutkinto Digitaalisista Järjestelmistä",
+            "description": "Kaavioiden tutkiminen, elektroniikkapiirien suunnittelu ja korjaus, signaalianalyysi, Arduino-ohjelmointi, HTML/CSS."
         }
     },
     "competences": {
@@ -40,6 +41,10 @@
         "name": "Lähetä minulle viesti!",
         "email": "Sähköposti",
         "subject": "Aihe",
-        "message": "Viestisi"
-    }
+        "message": "Viestisi",
+        "send": "Lähetä viestini",
+        "sended-email": "Viestisi on lähetetty onnistuneesti, kiitos! ✨",
+        "back-home-page": "Takaisin etusivulle"
+    },
+    "cv": "Perinteinen CV"
 }

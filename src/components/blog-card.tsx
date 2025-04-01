@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
 import { ChevronRight } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export const BlogCard = ({ data }: any) => {
     return (
@@ -40,13 +41,41 @@ export const BlogCard = ({ data }: any) => {
                             <Button
                                 variant={'secondary'}
                                 className="flex mt-6 shadow-none mx-auto"
+                                asChild
                             >
-                                {data?.leftButton} <ChevronRight />
+                                {data.leftUrl ? (
+                                    <Link
+                                        href={data.leftUrl}
+                                        target="_blank"
+                                        className="flex items-center gap-3"
+                                    >
+                                        {data?.leftButton} <ChevronRight />
+                                    </Link>
+                                ) : (
+                                    <span>
+                                        {data?.leftButton} <ChevronRight />
+                                    </span>
+                                )}
                             </Button>
                         )}
                         {data?.rightButton && (
-                            <Button className="flex mt-6 shadow-none mx-auto">
-                                {data?.rightButton} <ChevronRight />
+                            <Button
+                                className="flex mt-6 shadow-none mx-auto"
+                                asChild
+                            >
+                                {data.rightUrl ? (
+                                    <Link
+                                        href={data.rightUrl}
+                                        target="_blank"
+                                        className="flex items-center gap-3"
+                                    >
+                                        {data?.rightButton} <ChevronRight />
+                                    </Link>
+                                ) : (
+                                    <span>
+                                        {data?.rightButton} <ChevronRight />
+                                    </span>
+                                )}
                             </Button>
                         )}
                     </div>

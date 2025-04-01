@@ -2,35 +2,36 @@
     "about-me": {
         "name": "Om meg",
         "job": "Fullstack-utvikler React & NestJS",
-        "presentation": "Hei👋! Jeg er 24 år gammel og en fullstack JavaScript-utvikler. Etter å ha fullført utdannelsen min i elektronikk- og datasystemer valgte jeg å spesialisere meg i webutvikling. Jeg har nå nesten to års erfaring som fullstack JavaScript-utvikler!"
+        "presentation": "Hei👋! Jeg er 24 år gammel og en fullstack JavaScript-utvikler. Etter å ha fullført bachelorgraden min i elektroniske og datastyrte systemer, valgte jeg å spesialisere meg innen webutvikling. Nå har jeg nesten to års erfaring som fullstack JavaScript-utvikler!"
     },
     "portfolio": {
         "name": "Portefølje",
         "overcraft": {
             "name": "Overcraft",
-            "description": "Overcraft er en plattform der StarCraft 2-spillere kan lage, organisere og dele sine build orders for å lære bedre og optimalisere strategiene sine. Den tilbyr en interaktiv modus med en timer for å utføre byggene i sanntid, samt tilpasnings- og redigeringsmuligheter."
+            "description": "Overcraft er en plattform hvor StarCraft 2-spillere kan lage, organisere og dele sine build orders for å lære mer og optimalisere strategiene sine. Den tilbyr en interaktiv modus med en timer for å utføre builds i sanntid, samt tilpasnings- og redigeringsmuligheter."
         },
         "web-cv": {
             "name": "Web-CV",
-            "description": "Mitt Web-CV er en moderne og interaktiv applikasjon utviklet med Next.js, som gir en smidig navigasjon og en optimalisert opplevelse med et pent grensesnitt og mørk modus. Den er designet for å presentere min karriere på en profesjonell og dynamisk måte. 🚀"
+            "description": "Min Web-CV er en moderne og interaktiv applikasjon utviklet med Next.js, som gir en smidig navigasjon og en optimalisert opplevelse takket være et stilrent grensesnitt og mørk modus. Den er designet for å presentere min karriere på en profesjonell og dynamisk måte. 🚀"
         }
     },
     "experiences": {
         "name": "Erfaring",
         "projet-ulysseus": {
             "name": "Ulysseus-prosjektet",
-            "description": "Programmeringsspråk: C / C++ og VHDL (PIC16, ARDUINO, STM32). Sanntidsoperativsystem med FreeRTOS. Operativsystemer: Linux og Windows."
+            "description": "Utvikling av applikasjoner for Ulysseus-alliansen av institusjoner. De viktigste teknologiene er JavaScript, Python, Linux og Docker.",
+            "end-date": "nå"
         }
     },
     "education": {
         "name": "Utdanning",
         "licence": {
-            "name": "Bachelorgrad i innebygde systemer",
-            "description": "Utvikling av applikasjoner for Ulysseus-institusjonenes allianse. Hovedteknologiene er JavaScript, Python, Linux og Docker."
+            "name": "Bachelorgrad i Innebygde Systemer",
+            "description": "Programmeringsspråk: C / C++ og VHDL (PIC16, ARDUINO, STM32). Sanntidsoperativsystem med FreeRTOS. Operativsystemer: Linux og Windows."
         },
         "bts": {
-            "name": "Teknisk grad i digitale systemer",
-            "description": "Studie av skjemaer, design og feilsøking av elektroniske kretskort, signalanalyse, Arduino-programmering, HTML/CSS."
+            "name": "Teknisk Fagskole i Digitale Systemer",
+            "description": "Studie av skjemaer, design og reparasjon av elektroniske kretskort, signalanalyse, Arduino-programmering, HTML/CSS."
         }
     },
     "competences": {
@@ -40,6 +41,10 @@
         "name": "Send meg en melding!",
         "email": "E-post",
         "subject": "Emne",
-        "message": "Din melding"
-    }
+        "message": "Din melding",
+        "send": "Send meldingen min",
+        "sended-email": "Meldingen din har blitt sendt, takk! ✨",
+        "back-home-page": "Tilbake til hovedsiden"
+    },
+    "cv": "Tradisjonell CV"
 }

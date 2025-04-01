@@ -2,7 +2,7 @@
     "about-me": {
         "name": "About",
         "job": "Full-Stack Developer React & NestJS",
-        "presentation": "Hello👋 I'm 24 years old and a full-stack JavaScript developer. After obtaining my degree in electronic systems and computing, I chose to specialize in web development. I now have nearly two years of experience as a full-stack JavaScript developer!"
+        "presentation": "Hello👋 I'm 24 years old and a full-stack JavaScript developer. After earning my degree in electronic and computer systems, I decided to specialize in web development. I now have nearly two years of experience as a full-stack JavaScript developer!"
     },
     "portfolio": {
         "name": "Portfolio",
@@ -12,7 +12,7 @@
         },
         "web-cv": {
             "name": "Web CV",
-            "description": "My Web CV is a modern and interactive application developed with Next.js, offering smooth navigation and an optimized experience with a polished interface and dark mode. It is designed to present my background in a professional and dynamic way. 🚀"
+            "description": "My Web CV is a modern and interactive application developed with Next.js, offering smooth navigation and an optimized experience thanks to a polished interface and a dark mode. It is designed to present my career in a professional and dynamic way. 🚀"
         }
     },
     "experiences": {
@@ -26,12 +26,12 @@
     "education": {
         "name": "Education",
         "licence": {
-            "name": "Bachelor's in Embedded Systems",
-            "description": "Programming languages: C / C++ and VHDL (PIC16, ARDUINO, STM32). Real-time OS with FreeRTOS. Linux and Windows operating systems."
+            "name": "Bachelor’s Degree in Embedded Systems",
+            "description": "Programming languages: C / C++ and VHDL (PIC16, ARDUINO, STM32). Real-time OS with FreeRTOS. Operating systems: Linux and Windows."
         },
         "bts": {
-            "name": "BTS Digital Systems",
-            "description": "Study of circuit diagrams, design and troubleshooting on electronic boards, signal analysis, Arduino programming, HTML/CSS."
+            "name": "Advanced Technical Diploma in Digital Systems",
+            "description": "Study of schematics, design and troubleshooting on electronic boards, signal analysis, Arduino programming, HTML/CSS."
         }
     },
     "competences": {
@@ -41,6 +41,10 @@
         "name": "Send me a message!",
         "email": "Email",
         "subject": "Subject",
-        "message": "Your message"
-    }
+        "message": "Your message",
+        "send": "Send my message",
+        "sended-email": "Your message has been successfully sent, thank you! ✨",
+        "back-home-page": "Return to the main page"
+    },
+    "cv": "Traditional CV"
 }
