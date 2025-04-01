@@ -11,6 +11,8 @@ services:
             - vps_nginx_default
         volumes:
             - ./public/CV.pdf:/app/public/CV.pdf
+        env_file:
+            - .env
     cv-nginx:
         container_name: cv-nginx
         image: nginx:1.27.3

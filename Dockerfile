@@ -27,25 +27,6 @@ COPY postcss.config.mjs .
 COPY components.json .
 COPY messages ./messages
 
-# Environment variables must be present at build time
-# https://github.com/vercel/next.js/discussions/14030
-ARG NEXT_PUBLIC_LINKEDIN
-ENV NEXT_PUBLIC_LINKEDIN=${NEXT_PUBLIC_LINKEDIN}
-ARG NEXT_PUBLIC_GITHUB
-ENV NEXT_PUBLIC_GITHUB=${NEXT_PUBLIC_GITHUB}
-
-
-ARG NEXT_PUBLIC_SMTP_SERVER_USERNAME
-ENV NEXT_PUBLIC_SMTP_SERVER_USERNAME=${NEXT_PUBLIC_SMTP_SERVER_USERNAME}
-
-ARG NEXT_PUBLIC_SMTP_SERVER_PASSWORD
-ENV NEXT_PUBLIC_SMTP_SERVER_PASSWORD=${NEXT_PUBLIC_SMTP_SERVER_PASSWORD}
-
-ARG NEXT_PUBLIC_SMTP_SERVER_HOST
-ENV NEXT_PUBLIC_SMTP_SERVER_HOST=${NEXT_PUBLIC_SMTP_SERVER_HOST}
-
-ARG NEXT_PUBLIC_SITE_MAIL_RECIEVER
-ENV NEXT_PUBLIC_SITE_MAIL_RECIEVER=${NEXT_PUBLIC_SITE_MAIL_RECIEVER}
 # Next.js collects completely anonymous telemetry data about general usage. Learn more here: https://nextjs.org/telemetry
 # Uncomment the following line to disable telemetry at build time
 # ENV NEXT_TELEMETRY_DISABLED 1
@@ -76,25 +57,6 @@ COPY --from=builder /app/public ./public
 # https://nextjs.org/docs/advanced-features/output-file-tracing
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
-
-# Environment variables must be redefined at run time
-ARG NEXT_PUBLIC_LINKEDIN
-ENV NEXT_PUBLIC_LINKEDIN=${NEXT_PUBLIC_LINKEDIN}
-ARG NEXT_PUBLIC_GITHUB
-ENV NEXT_PUBLIC_GITHUB=${NEXT_PUBLIC_GITHUB}
-
-
-ARG NEXT_PUBLIC_SMTP_SERVER_USERNAME
-ENV NEXT_PUBLIC_SMTP_SERVER_USERNAME=${NEXT_PUBLIC_SMTP_SERVER_USERNAME}
-
-ARG NEXT_PUBLIC_SMTP_SERVER_PASSWORD
-ENV NEXT_PUBLIC_SMTP_SERVER_PASSWORD=${NEXT_PUBLIC_SMTP_SERVER_PASSWORD}
-
-ARG NEXT_PUBLIC_SMTP_SERVER_HOST
-ENV NEXT_PUBLIC_SMTP_SERVER_HOST=${NEXT_PUBLIC_SMTP_SERVER_HOST}
-
-ARG NEXT_PUBLIC_SITE_MAIL_RECIEVER
-ENV NEXT_PUBLIC_SITE_MAIL_RECIEVER=${NEXT_PUBLIC_SITE_MAIL_RECIEVER}
 
 # Uncomment the following line to disable telemetry at run time
 # ENV NEXT_TELEMETRY_DISABLED 1

@@ -90,7 +90,9 @@ export const Header = () => {
                 <DlCvButton className="hidden md:flex" />
                 <Button asChild variant={'outline'}>
                     <Link
-                        href={`${process.env.NEXT_PUBLIC_LINKEDIN}`}
+                        href={
+                            'https://www.linkedin.com/in/dylan-bollaro-b117301ab/'
+                        }
                         target="_blank"
                     >
                         LinkedIn
@@ -99,7 +101,7 @@ export const Header = () => {
 
                 <Button asChild variant={'outline'}>
                     <Link
-                        href={`${process.env.NEXT_PUBLIC_GITHUB}`}
+                        href={'https://github.com/DylanBOLLARO/'}
                         target="_blank"
                     >
                         Github
