@@ -1,50 +1,78 @@
 {
     "about-me": {
         "name": "Über mich",
-        "job": "Full-Stack-Entwickler React & NestJS",
-        "presentation": "Hallo👋! Ich bin 24 Jahre alt und ein Full-Stack-JavaScript-Entwickler. Nach meinem Bachelor-Abschluss in elektronischen und Computersystemen habe ich mich auf die Webentwicklung spezialisiert. Ich habe jetzt fast zwei Jahre Erfahrung als Full-Stack-JavaScript-Entwickler!"
+        "job": "Full-Stack-Entwickler React & Nestjs",
+        "presentation": "Hallo👋 Ich bin 24 Jahre alt und ein Full-Stack-JavaScript-Entwickler. Nach dem Abschluss meines Studiums in elektronischen Systemen und Informatik habe ich mich entschieden, mich auf die Webentwicklung zu spezialisieren. Ich habe jetzt fast zwei Jahre Erfahrung als Full-Stack-JavaScript-Entwickler!"
     },
     "portfolio": {
         "name": "Portfolio",
         "overcraft": {
             "name": "Overcraft",
-            "description": "Overcraft ist eine Plattform, auf der StarCraft-2-Spieler ihre Build Orders erstellen, organisieren und teilen können, um ihre Strategien besser zu lernen und zu optimieren. Sie bietet einen interaktiven Modus mit einem Timer, um Builds in Echtzeit auszuführen, sowie Anpassungs- und Bearbeitungsoptionen."
+            "description": "Overcraft ist eine Plattform, auf der StarCraft 2-Spieler ihre Build Orders erstellen, organisieren und teilen können, um besser zu lernen und ihre Strategien zu optimieren. Sie bietet einen interaktiven Modus mit einer Stoppuhr, um die Bauvorhaben in Echtzeit auszuführen, sowie Anpassungs- und Bearbeitungsoptionen."
         },
         "web-cv": {
             "name": "Web-CV",
-            "description": "Mein Web-CV ist eine moderne und interaktive Anwendung, die mit Next.js entwickelt wurde. Sie bietet eine flüssige Navigation und eine optimierte Benutzererfahrung dank einer sorgfältig gestalteten Oberfläche und einem Dark Mode. Sie wurde entwickelt, um meinen Werdegang professionell und dynamisch zu präsentieren. 🚀"
+            "description": "Mein Web-CV ist eine moderne und interaktive Anwendung, die mit Next.js entwickelt wurde. Sie bietet eine flüssige Navigation und eine optimierte Benutzererfahrung dank einer gepflegten Oberfläche und einem Dark Mode. Es wurde entwickelt, um meinen Werdegang professionell und dynamisch zu präsentieren. 🚀"
         }
     },
     "experiences": {
         "name": "Erfahrungen",
-        "projet-ulysseus": {
-            "name": "Ulysseus-Projekt",
-            "description": "Entwicklung von Anwendungen für das Ulysseus-Bündnis von Institutionen. Die Haupttechnologien sind JavaScript, Python, Linux und Docker.",
-            "end-date": "jetzt"
+        "universite-cote-d-azur-ulysseus": {
+            "name": "Université Côte d'Azur - Ulysseus",
+            "description": "Entwicklung von Anwendungen für die Ulysseus-Institutionen-Allianz. Die wichtigsten Technologien sind JavaScript, Python, Linux und Docker.",
+            "start-date": "Mai 2023",
+            "end-date": "jetzt",
+            "more": "Mehr erfahren",
+            "projects": {
+                "match-4-cooperation": {
+                    "name": "Match4Cooperation",
+                    "description": "Ulysseus Match4Cooperation zielt darauf ab, die Forschungs-Community der europäischen Universität Ulysseus zu verbinden. Es ermöglicht den Forschern im Ulysseus-Netzwerk, ihre Arbeiten auszutauschen, bei EU-Projektaufrufen zusammenzuarbeiten und Mobilitätsmöglichkeiten zu finden."
+                },
+                "invenio-rdm": {
+                    "name": "Invenio RDM",
+                    "description": "InvenioRDM ist eine Open-Source-Plattform, die vom CERN entwickelt wurde, um Forschungsdaten zu verwalten und zu teilen. Sie bietet erweiterte Funktionen für das Hochladen, Suchen und die Archivierung wissenschaftlicher Daten."
+                },
+                "airflow": {
+                    "name": "AirFlow",
+                    "description": "Entwicklung eines automatisierten Überwachungssystems (PINGER) unter Verwendung von AirFlow, um die Verfügbarkeit unserer Webanwendungen zu überprüfen und die Gültigkeit der SSL-Zertifikate auf unseren verschiedenen Domains zu überwachen."
+                },
+                "student-portal": {
+                    "name": "Studentenportal",
+                    "description": "Entwicklung eines zentralen Studentenportals, das Veranstaltungen und Aktivitäten an verschiedenen Campus anzeigt und so den Zugang zu Informationen und die Teilnahme der Studenten erleichtert."
+                },
+                "microsoft-azure": {
+                    "name": "Microsoft - Azure",
+                    "description": "Automatisierung des Prozesses, um neue Benutzer im Ulysseus-Tenant über ein Python-Skript hinzuzufügen, um so die Verwaltung der Zugänge und die Benutzerintegration zu erleichtern."
+                },
+                "servers-details": {
+                    "name": "Server-Details",
+                    "description": "Automatisierung der Sammlung detaillierter Informationen zu Servern, einschließlich Leistungsdaten, Status und Konfiguration, sowie die Erstellung eines Excel-Berichts zur einfachen Nachverfolgung und schnellen Analyse."
+                }
+            }
         }
     },
     "education": {
         "name": "Ausbildung",
         "licence": {
-            "name": "Bachelor in Eingebetteten Systemen",
-            "description": "Programmiersprachen: C / C++ und VHDL (PIC16, ARDUINO, STM32). Echtzeit-Betriebssystem mit FreeRTOS. Betriebssysteme: Linux und Windows."
+            "name": "LIZENZ Eingebettete Systeme",
+            "description": "Programmiersprachen: C / C++ und VHDL (PIC16, ARDUINO, STM32). Echtzeit-Betriebssysteme mit FreeRTOS. Betriebssysteme Linux und Windows."
         },
         "bts": {
-            "name": "Technischer Abschluss in Digitalen Systemen",
-            "description": "Studium von Schaltplänen, Entwurf und Reparatur elektronischer Platinen, Signalanalyse, Arduino-Programmierung, HTML/CSS."
+            "name": "BTS Digitale Systeme",
+            "description": "Studium von Schaltplänen, Entwurf und Reparatur von Leiterplatten, Signalverarbeitung, Arduino-Programmierung, HTML/CSS."
         }
     },
     "competences": {
-        "name": "Fähigkeiten"
+        "name": "Kompetenzen"
     },
     "contact-me": {
-        "name": "Schreib mir eine Nachricht!",
+        "name": "Schick mir eine Nachricht!",
         "email": "E-Mail",
         "subject": "Betreff",
         "message": "Deine Nachricht",
         "send": "Meine Nachricht senden",
         "sended-email": "Deine Nachricht wurde erfolgreich gesendet, danke! ✨",
-        "back-home-page": "Zurück zur Hauptseite"
+        "back-home-page": "Zur Hauptseite zurück"
     },
     "cv": "Klassischer Lebenslauf"
 }

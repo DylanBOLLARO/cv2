@@ -1,37 +1,65 @@
 {
     "about-me": {
         "name": "Om mig",
-        "job": "Fullstack-udvikler React & NestJS",
-        "presentation": "Hej👋! Jeg er 24 år gammel og en fullstack JavaScript-udvikler. Efter at have afsluttet min bachelorgrad i elektroniske og computersystemer valgte jeg at specialisere mig i webudvikling. Nu har jeg næsten to års erfaring som fullstack JavaScript-udvikler!"
+        "job": "Full-Stack React & Nestjs Udvikler",
+        "presentation": "Hej👋 Jeg er 24 år gammel og en full-stack JavaScript udvikler. Efter at have opnået min bachelor i elektroniske og computersystemer, valgte jeg at specialisere mig i webudvikling. Jeg har nu næsten to års erfaring som full-stack JavaScript udvikler!"
     },
     "portfolio": {
         "name": "Portfolio",
         "overcraft": {
             "name": "Overcraft",
-            "description": "Overcraft er en platform, hvor StarCraft 2-spillere kan oprette, organisere og dele deres build orders for bedre at lære og optimere deres strategier. Den tilbyder en interaktiv tilstand med en timer til at udføre builds i realtid samt tilpasnings- og redigeringsmuligheder."
+            "description": "Overcraft er en platform, hvor StarCraft 2 spillere kan oprette, organisere og dele deres build orders for bedre at lære og optimere deres strategier. Den tilbyder en interaktiv tilstand med en timer til at udføre builds i realtid samt tilpasnings- og redigeringsmuligheder."
         },
         "web-cv": {
-            "name": "Web-CV",
-            "description": "Mit Web-CV er en moderne og interaktiv applikation udviklet med Next.js, som giver en smidig navigation og en optimeret oplevelse takket være en stilren brugerflade og mørk tilstand. Det er designet til at præsentere min karriere professionelt og dynamisk. 🚀"
+            "name": "Web CV",
+            "description": "Mit Web CV er en moderne og interaktiv applikation udviklet med Next.js, der tilbyder en glat navigation og en optimeret oplevelse gennem et stilrent interface og mørk tilstand. Det er designet til at præsentere min karriere på en professionel og dynamisk måde. 🚀"
         }
     },
     "experiences": {
-        "name": "Erfaring",
-        "projet-ulysseus": {
-            "name": "Ulysseus-projektet",
-            "description": "Udvikling af applikationer for Ulysseus-alliancen af institutioner. De vigtigste teknologier er JavaScript, Python, Linux og Docker.",
-            "end-date": "nu"
+        "name": "Erfaringer",
+        "universite-cote-d-azur-ulysseus": {
+            "name": "Université Côte d'Azur - Ulysseus",
+            "description": "Udvikling af applikationer for Ulysseus-institutionernes alliance. De vigtigste teknologier er JavaScript, Python, Linux og Docker.",
+            "start-date": "Maj 2023",
+            "end-date": "nu",
+            "more": "Lær mere",
+            "projects": {
+                "match-4-cooperation": {
+                    "name": "Match4Cooperation",
+                    "description": "Ulysseus Match4Cooperation har til formål at samle forskningssamfundet fra Ulysseus europæiske universitet. Det giver forskere i Ulysseus-netværket mulighed for at dele deres arbejde, samarbejde om europæiske projektopkald og finde mobilitetsmuligheder."
+                },
+                "invenio-rdm": {
+                    "name": "Invenio RDM",
+                    "description": "InvenioRDM er en open-source platform udviklet af CERN til håndtering og deling af forskningsdata, der tilbyder avancerede funktioner til dataaflevering, søgning og bevaring."
+                },
+                "airflow": {
+                    "name": "AirFlow",
+                    "description": "Udvikling af et automatiseret overvågningssystem (PINGER) ved hjælp af AirFlow til at kontrollere tilgængeligheden af vores webapplikationer og følge gyldigheden af SSL-certifikater på vores forskellige domæner."
+                },
+                "student-portal": {
+                    "name": "Student Portal",
+                    "description": "Udvikling af en centraliseret studentportal, der gør det muligt at vise begivenheder og aktiviteter arrangeret på de forskellige campusser, hvilket letter adgangen til information og studerendes deltagelse."
+                },
+                "microsoft-azure": {
+                    "name": "Microsoft - Azure",
+                    "description": "Automatisering af processen med at tilføje nye brugere til Ulysseus tenant via et Python-script, hvilket letter adgangsstyring og brugerintegration."
+                },
+                "servers-details": {
+                    "name": "Servers Details",
+                    "description": "Automatisering af hentning af detaljerede serveroplysninger, herunder ydelsesdata, status og konfiguration, og derefter generering af en Excel-rapport til nem opfølgning og hurtig analyse."
+                }
+            }
         }
     },
     "education": {
         "name": "Uddannelse",
         "licence": {
-            "name": "Bachelor i Indlejrede Systemer",
-            "description": "Programmeringssprog: C / C++ og VHDL (PIC16, ARDUINO, STM32). Realtidsoperativsystem med FreeRTOS. Operativsystemer: Linux og Windows."
+            "name": "Bachelor i Embedded Systems",
+            "description": "Programmeringssprog: C / C++ og VHDL (PIC16, ARDUINO, STM32). Real-time OS med FreeRTOS. Linux- og Windows-operativsystemer."
         },
         "bts": {
-            "name": "Teknisk eksamen i Digitale Systemer",
-            "description": "Studie af skemaer, design og reparation af elektroniske kredsløb, signalanalyse, Arduino-programmering, HTML/CSS."
+            "name": "BTS i Digitale Systemer",
+            "description": "Studie af skemaer, design og fejlfinding på elektroniske kredsløb, signalanalyse, Arduino-programmering, HTML/CSS."
         }
     },
     "competences": {
@@ -39,12 +67,12 @@
     },
     "contact-me": {
         "name": "Send mig en besked!",
-        "email": "E-mail",
+        "email": "Email",
         "subject": "Emne",
         "message": "Din besked",
         "send": "Send min besked",
-        "sended-email": "Din besked er blevet sendt succesfuldt, tak! ✨",
-        "back-home-page": "Tilbage til hovedsiden"
+        "sended-email": "Din besked er blevet sendt med succes, tak! ✨",
+        "back-home-page": "Tilbage til startsiden"
     },
     "cv": "Klassisk CV"
 }

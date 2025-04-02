@@ -2,14 +2,15 @@
 
 import { BlogCard } from '@/components/blog-card'
 import { Card, CardHeader, CardTitle } from '@/components/ui/card'
+import { ProjectItem } from '@/types'
 import { useTranslations } from 'next-intl'
 
 export default function Page() {
     const t = useTranslations()
 
-    const dataPortfolio = [
+    const projectsPortfolio: Array<ProjectItem> = [
         {
-            title: t('portfolio.overcraft.name'),
+            name: t('portfolio.overcraft.name'),
             description: t('portfolio.overcraft.description'),
             imageSrc: '/oc_main_page.png',
             badges: ['Frontend', 'Backend', 'DevOps'],
@@ -19,7 +20,7 @@ export default function Page() {
             rightUrl: 'https://overcraft.bollarodylan.fr/',
         },
         {
-            title: t('portfolio.web-cv.name'),
+            name: t('portfolio.web-cv.name'),
             description: t('portfolio.web-cv.description'),
             badges: ['Frontend', 'DevOps'],
             imageSrc: '/cv_main_page.jpg',
@@ -40,8 +41,8 @@ export default function Page() {
                 </CardHeader>
             </Card>
             <div className="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
-                {dataPortfolio.map((data) => {
-                    return <BlogCard key={data.title} data={data} />
+                {projectsPortfolio.map((data) => {
+                    return <BlogCard key={data.name} data={data} />
                 })}
             </div>
         </>

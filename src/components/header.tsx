@@ -21,23 +21,23 @@ export const Header = () => {
 
     const menu = [
         {
-            title: `${t('about-me.name')}`,
+            name: `${t('about-me.name')}`,
             url: `/${locale}/`,
         },
         {
-            title: `${t('portfolio.name')}`,
+            name: `${t('portfolio.name')}`,
             url: `/${locale}/portfolio`,
         },
         {
-            title: `${t('experiences.name')}`,
+            name: `${t('experiences.name')}`,
             url: `/${locale}/experiences`,
         },
         {
-            title: `${t('education.name')}`,
+            name: `${t('education.name')}`,
             url: `/${locale}/education`,
         },
         {
-            title: `${t('contact-me.name')}`,
+            name: `${t('contact-me.name')}`,
             url: `/${locale}/contact-me`,
         },
     ]
@@ -77,10 +77,10 @@ export const Header = () => {
                     return (
                         <Link
                             href={item.url}
-                            key={item.title}
+                            key={item.name}
                             className="link-hover"
                         >
-                            {item.title}
+                            {item.name}
                         </Link>
                     )
                 })}
@@ -116,12 +116,8 @@ export const Header = () => {
 
 const renderMobileMenuItem = (item: any) => {
     return (
-        <Link
-            key={item.title}
-            href={item.url}
-            className="text-xl font-semibold"
-        >
-            {item.title}
+        <Link key={item.name} href={item.url} className="text-xl font-semibold">
+            {item.name}
         </Link>
     )
 }

@@ -1,41 +1,69 @@
 {
     "about-me": {
         "name": "Om mig",
-        "job": "Fullstackutvecklare React & NestJS",
-        "presentation": "Hej👋! Jag är 24 år gammal och en fullstack JavaScript-utvecklare. Efter att ha tagit min kandidatexamen i elektroniska och datorsystem valde jag att specialisera mig på webbutveckling. Nu har jag nästan två års erfarenhet som fullstack JavaScript-utvecklare!"
+        "job": "Full-Stack React & Nestjs Utvecklare",
+        "presentation": "Hej👋 Jag är 24 år gammal och en full-stack JavaScript utvecklare. Efter att ha avslutat min kandidatexamen i elektroniska och datorsystem valde jag att specialisera mig inom webbutveckling. Jag har nu nästan två års erfarenhet som full-stack JavaScript utvecklare!"
     },
     "portfolio": {
         "name": "Portfolio",
         "overcraft": {
             "name": "Overcraft",
-            "description": "Overcraft är en plattform där StarCraft 2-spelare kan skapa, organisera och dela sina build orders för att bättre lära sig och optimera sina strategier. Den erbjuder ett interaktivt läge med en timer för att genomföra builds i realtid, samt anpassnings- och redigeringsalternativ."
+            "description": "Overcraft är en plattform där StarCraft 2-spelare kan skapa, organisera och dela sina build orders för att bättre lära sig och optimera sina strategier. Den erbjuder en interaktiv läge med en timer för att genomföra byggnader i realtid, samt anpassnings- och redigeringsalternativ."
         },
         "web-cv": {
             "name": "Webb-CV",
-            "description": "Mitt Webb-CV är en modern och interaktiv applikation utvecklad med Next.js, som erbjuder smidig navigering och en optimerad upplevelse tack vare ett stilrent gränssnitt och mörkt läge. Det är utformat för att presentera min karriär på ett professionellt och dynamiskt sätt. 🚀"
+            "description": "Mitt Web CV är en modern och interaktiv applikation utvecklad med Next.js, som erbjuder smidig navigering och en optimerad upplevelse med ett stilrent gränssnitt och mörkt tema. Det är designat för att professionellt och dynamiskt presentera min bakgrund. 🚀"
         }
     },
     "experiences": {
         "name": "Erfarenheter",
-        "projet-ulysseus": {
-            "name": "Ulysseus-projektet",
-            "description": "Utveckling av applikationer för Ulysseus-alliansen av institutioner. De viktigaste teknologierna är JavaScript, Python, Linux och Docker.",
-            "end-date": "nu"
+        "universite-cote-d-azur-ulysseus": {
+            "name": "Université Côte d'Azur - Ulysseus",
+            "description": "Utveckling av applikationer för Ulysseus-alliansen av institutioner. De huvudsakliga teknologierna är JavaScript, Python, Linux och Docker.",
+            "start-date": "Maj 2023",
+            "end-date": "nu",
+            "more": "Läs mer",
+            "projects": {
+                "match-4-cooperation": {
+                    "name": "Match4Cooperation",
+                    "description": "Ulysseus Match4Cooperation syftar till att samla forskarsamhället vid Ulysseus europeiska universitet. Det gör det möjligt för forskare i Ulysseus-nätverket att utbyta idéer om sina arbeten, samarbeta på EU-projekt och hitta mobilitetsmöjligheter."
+                },
+                "invenio-rdm": {
+                    "name": "Invenio RDM",
+                    "description": "InvenioRDM är en öppen källkodsplattform utvecklad av CERN för hantering och delning av forskningsdata, och erbjuder avancerade funktioner för uppladdning, sökning och bevarande av vetenskaplig data."
+                },
+                "airflow": {
+                    "name": "AirFlow",
+                    "description": "Utveckling av ett automatiserat övervakningssystem (PINGER) med AirFlow för att verifiera tillgängligheten av våra webbapplikationer och övervaka giltigheten av SSL-certifikat på våra olika domäner."
+                },
+                "student-portal": {
+                    "name": "Studentportal",
+                    "description": "Utveckling av en centraliserad studentportal för att visa evenemang och aktiviteter på olika campus, vilket gör det enklare för studenter att få tillgång till information och delta."
+                },
+                "microsoft-azure": {
+                    "name": "Microsoft - Azure",
+                    "description": "Automatisering av processen för att lägga till nya användare till Ulysseus tenant via ett Python-skript, vilket underlättar hantering av åtkomst och användarintégration."
+                },
+                "servers-details": {
+                    "name": "Serverinformation",
+                    "description": "Automatisering av insamling av detaljerad serverinformation, inklusive prestanda, status och konfiguration, samt generering av en Excel-rapport för enkel uppföljning och snabb analys."
+                }
+            }
         }
     },
     "education": {
         "name": "Utbildning",
         "licence": {
-            "name": "Kandidatexamen i Inbyggda System",
-            "description": "Programmeringsspråk: C / C++ och VHDL (PIC16, ARDUINO, STM32). Realtidsoperativsystem med FreeRTOS. Operativsystem: Linux och Windows."
+            "name": "LICENCE Embedded Systems",
+            "description": "Programmeringsspråk: C / C++ och VHDL (PIC16, ARDUINO, STM32). Realtidsoperativsystem med FreeRTOS. Operativsystem Linux och Windows."
         },
         "bts": {
-            "name": "Yrkesexamen i Digitala System",
-            "description": "Studie av scheman, design och reparation av elektroniska kretskort, signalanalys, Arduino-programmering, HTML/CSS."
+            "name": "BTS Digitala system",
+            "description": "Studie av kretsar, design och felsökning på elektronikkort, signalanalys, arduino-programmering, HTML/CSS."
         }
     },
     "competences": {
-        "name": "Färdigheter"
+        "name": "Kompetenser"
     },
     "contact-me": {
         "name": "Skicka ett meddelande till mig!",
@@ -44,7 +72,7 @@
         "message": "Ditt meddelande",
         "send": "Skicka mitt meddelande",
         "sended-email": "Ditt meddelande har skickats framgångsrikt, tack! ✨",
-        "back-home-page": "Gå tillbaka till huvudsidan"
+        "back-home-page": "Tillbaka till startsidan"
     },
-    "cv": "Traditionellt CV"
+    "cv": "Klassiskt CV"
 }

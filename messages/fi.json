@@ -1,37 +1,65 @@
 {
     "about-me": {
         "name": "Tietoja minusta",
-        "job": "Fullstack-kehittäjä React & NestJS",
-        "presentation": "Hei👋! Olen 24-vuotias fullstack JavaScript -kehittäjä. Suoritettuani kandidaatin tutkinnon elektroniikka- ja tietojärjestelmistä päätin erikoistua web-kehitykseen. Nyt minulla on lähes kahden vuoden kokemus fullstack JavaScript -kehittäjänä!"
+        "job": "Full-Stack-kehittäjä React & Nestjs",
+        "presentation": "Hei👋 Olen 24-vuotias ja full-stack JavaScript -kehittäjä. Valmistuin sähkö- ja tietojärjestelmien alalta, ja päätin erikoistua web-kehitykseen. Minulla on nyt lähes kaksi vuotta kokemusta full-stack JavaScript -kehittäjänä!"
     },
     "portfolio": {
         "name": "Portfolio",
         "overcraft": {
             "name": "Overcraft",
-            "description": "Overcraft on alusta, jossa StarCraft 2 -pelaajat voivat luoda, järjestellä ja jakaa build order -rakennelmiaan oppiakseen paremmin ja optimoidakseen strategiansa. Se tarjoaa interaktiivisen tilan ajastimella, jolla rakennelmia voidaan suorittaa reaaliajassa, sekä mukautus- ja muokkausvaihtoehtoja."
+            "description": "Overcraft on alusta, jossa StarCraft 2 -pelaajat voivat luoda, järjestää ja jakaa build order -suunnitelmiaan oppiakseen paremmin ja optimoidakseen strategioitaan. Se tarjoaa interaktiivisen tilan ajastimella rakennusten suorittamiseen reaaliajassa sekä mukautus- ja muokkausmahdollisuuksia."
         },
         "web-cv": {
             "name": "Web-CV",
-            "description": "Web-CV:ni on moderni ja interaktiivinen sovellus, joka on kehitetty Next.js:llä. Se tarjoaa sujuvan navigoinnin ja optimoidun käyttökokemuksen tyylikkään käyttöliittymän ja tumman tilan ansiosta. Se on suunniteltu esittelemään urapolkuni ammattimaisesti ja dynaamisesti. 🚀"
+            "description": "Web-CV:ni on moderni ja interaktiivinen sovellus, joka on kehitetty Next.js:llä. Se tarjoaa sujuvan navigoinnin ja optimoidun käyttökokemuksen huolellisella käyttöliittymällä ja tummalla teemalla. Sovellus on suunniteltu esittelemään urapolkuni ammattimaisella ja dynaamisella tavalla. 🚀"
         }
     },
     "experiences": {
-        "name": "Kokemus",
-        "projet-ulysseus": {
-            "name": "Ulysseus-projekti",
-            "description": "Sovellusten kehitys Ulysseus-instituutioiden liitolle. Pääteknologiat ovat JavaScript, Python, Linux ja Docker.",
-            "end-date": "nyt"
+        "name": "Kokemukset",
+        "universite-cote-d-azur-ulysseus": {
+            "name": "Université Côte d'Azur - Ulysseus",
+            "description": "Sovellusten kehittäminen Ulysseus-instituutioiden liittouman tueksi. Pääteknologioita ovat JavaScript, Python, Linux ja Docker.",
+            "start-date": "Toukokuu 2023",
+            "end-date": "nykyhetki",
+            "more": "Lisätietoja",
+            "projects": {
+                "match-4-cooperation": {
+                    "name": "Match4Cooperation",
+                    "description": "Ulysseus Match4Cooperation pyrkii yhdistämään Ulysseus-yliopiston tutkimusyhteisön. Se mahdollistaa Ulysseus-verkoston tutkijoiden työskentelyn jakamisen, yhteistyön EU-hankkeissa ja liikkuvuusmahdollisuuksien löytämisen."
+                },
+                "invenio-rdm": {
+                    "name": "Invenio RDM",
+                    "description": "InvenioRDM on CERNin kehittämä avoimen lähdekoodin alusta, joka tukee tutkimusdatan hallintaa ja jakamista. Se tarjoaa edistyksellisiä ominaisuuksia datan tallettamiseen, hakemiseen ja säilyttämiseen."
+                },
+                "airflow": {
+                    "name": "AirFlow",
+                    "description": "Automaattisen valvontajärjestelmän (PINGER) kehittäminen AirFlow'n avulla, joka tarkistaa web-sovellustemme saatavuuden ja seuraa SSL-varmenteiden voimassaoloa eri verkkotunnuksillamme."
+                },
+                "student-portal": {
+                    "name": "Opiskelijaportaalin",
+                    "description": "Keskitetyn opiskelijaportaalin kehittäminen, joka näyttää eri kampuksilla järjestettävät tapahtumat ja aktiviteetit, helpottaen tietoon pääsyä ja opiskelijoiden osallistumista."
+                },
+                "microsoft-azure": {
+                    "name": "Microsoft - Azure",
+                    "description": "Uusien käyttäjien lisäämisen automatisointi Ulysseus-tenanttiin Python-skriptin avulla, mikä helpottaa pääsyn hallintaa ja käyttäjien integrointia."
+                },
+                "servers-details": {
+                    "name": "Palvelinten tiedot",
+                    "description": "Palvelinten yksityiskohtaisten tietojen keräämisen automatisointi, mukaan lukien suorituskyky-, tila- ja kokoonpanotiedot, sekä Excel-raportin luominen helppoa seurattavuutta ja nopeaa analyysia varten."
+                }
+            }
         }
     },
     "education": {
         "name": "Koulutus",
         "licence": {
-            "name": "Kandidaatin tutkinto Sulautetuista Järjestelmistä",
-            "description": "Ohjelmointikielet: C / C++ ja VHDL (PIC16, ARDUINO, STM32). Reaaliaikaiset käyttöjärjestelmät FreeRTOS:lla. Käyttöjärjestelmät: Linux ja Windows."
+            "name": "LISENSSI Sisäänrakennetut järjestelmät",
+            "description": "Ohjelmointikielet: C / C++ ja VHDL (PIC16, ARDUINO, STM32). Reaaliaikaiset käyttöjärjestelmät FreeRTOS:lla. Linux ja Windows käyttöjärjestelmät."
         },
         "bts": {
-            "name": "Tekninen tutkinto Digitaalisista Järjestelmistä",
-            "description": "Kaavioiden tutkiminen, elektroniikkapiirien suunnittelu ja korjaus, signaalianalyysi, Arduino-ohjelmointi, HTML/CSS."
+            "name": "BTS Digitaaliset järjestelmät",
+            "description": "Piirien tutkimus, piirilevyjen suunnittelu ja vianmääritys, signaalien analysointi, Arduino-ohjelmointi, HTML/CSS."
         }
     },
     "competences": {
@@ -41,10 +69,10 @@
         "name": "Lähetä minulle viesti!",
         "email": "Sähköposti",
         "subject": "Aihe",
-        "message": "Viestisi",
+        "message": "Viesti",
         "send": "Lähetä viestini",
         "sended-email": "Viestisi on lähetetty onnistuneesti, kiitos! ✨",
-        "back-home-page": "Takaisin etusivulle"
+        "back-home-page": "Palaa pääsivulle"
     },
     "cv": "Perinteinen CV"
 }

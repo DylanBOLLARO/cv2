@@ -2,18 +2,26 @@
 
 import { BlogCard } from '@/components/blog-card'
 import { Card, CardHeader, CardTitle } from '@/components/ui/card'
-import { useTranslations } from 'next-intl'
+import { ProjectItem } from '@/types'
+import { useLocale, useTranslations } from 'next-intl'
 
 export default function Page() {
     const t = useTranslations()
+    const locale = useLocale()
 
-    const dataExperiences = [
+    const dataExperiences: Array<ProjectItem> = [
         {
-            title: t('experiences.projet-ulysseus.name'),
-            description: t('experiences.projet-ulysseus.description'),
+            name: t('experiences.universite-cote-d-azur-ulysseus.name'),
+            description: t(
+                'experiences.universite-cote-d-azur-ulysseus.description'
+            ),
             imageSrc: '/universite-cote-dazur.png',
-            startDate: `01.05.2023`,
-            endDate: t('experiences.projet-ulysseus.end-date'),
+            startDate: t(
+                'experiences.universite-cote-d-azur-ulysseus.start-date'
+            ),
+            endDate: t('experiences.universite-cote-d-azur-ulysseus.end-date'),
+            more: t('experiences.universite-cote-d-azur-ulysseus.more'),
+            moreUrl: `/${locale}/experiences/universite-cote-d-azur-ulysseus`,
         },
     ]
 
@@ -28,7 +36,7 @@ export default function Page() {
             </Card>
             <div className="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
                 {dataExperiences.map((data) => {
-                    return <BlogCard key={data.title} data={data} />
+                    return <BlogCard key={data.name} data={data} />
                 })}
             </div>
         </>

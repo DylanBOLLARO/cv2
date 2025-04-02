@@ -1,50 +1,78 @@
 {
     "about-me": {
-        "name": "Acerca de mí",
-        "job": "Desarrollador Full-Stack React & NestJS",
-        "presentation": "¡Hola👋! Tengo 24 años y soy un desarrollador full-stack de JavaScript. Después de obtener mi licenciatura en sistemas electrónicos e informáticos, decidí especializarme en desarrollo web. ¡Ahora tengo casi dos años de experiencia como desarrollador full-stack de JavaScript!"
+        "name": "Acerca de",
+        "job": "Desarrollador Full-Stack React & Nestjs",
+        "presentation": "¡Hola👋! Tengo 24 años y soy un desarrollador full-stack JavaScript. Después de obtener mi licenciatura en sistemas electrónicos e informáticos, decidí especializarme en desarrollo web. ¡Ahora tengo casi dos años de experiencia como desarrollador full-stack JavaScript!"
     },
     "portfolio": {
-        "name": "Portafolio",
+        "name": "Portfolio",
         "overcraft": {
             "name": "Overcraft",
-            "description": "Overcraft es una plataforma donde los jugadores de StarCraft 2 pueden crear, organizar y compartir sus órdenes de construcción para aprender y optimizar mejor sus estrategias. Ofrece un modo interactivo con un cronómetro para ejecutar las construcciones en tiempo real, así como opciones de personalización y edición."
+            "description": "Overcraft es una plataforma donde los jugadores de StarCraft 2 pueden crear, organizar y compartir sus build orders para aprender mejor y optimizar sus estrategias. Ofrece un modo interactivo con un temporizador para ejecutar las construcciones en tiempo real, así como opciones de personalización y edición."
         },
         "web-cv": {
-            "name": "Web CV",
-            "description": "Mi Web CV es una aplicación moderna e interactiva desarrollada con Next.js, que ofrece una navegación fluida y una experiencia optimizada gracias a una interfaz bien diseñada y un modo oscuro. Está diseñado para presentar mi trayectoria de manera profesional y dinámica. 🚀"
+            "name": "Web-cv",
+            "description": "Mi Web CV es una aplicación moderna e interactiva desarrollada con Next.js, que ofrece una navegación fluida y una experiencia optimizada gracias a una interfaz cuidada y un modo oscuro. Está diseñada para presentar mi trayectoria de manera profesional y dinámica. 🚀"
         }
     },
     "experiences": {
-        "name": "Experiencia",
-        "projet-ulysseus": {
-            "name": "Proyecto Ulysseus",
+        "name": "Experiencias",
+        "universite-cote-d-azur-ulysseus": {
+            "name": "Université Côte d'Azur - Ulysseus",
             "description": "Desarrollo de aplicaciones para la alianza de instituciones Ulysseus. Las principales tecnologías son JavaScript, Python, Linux y Docker.",
-            "end-date": "ahora"
+            "start-date": "Mayo 2023",
+            "end-date": "actualidad",
+            "more": "Saber más",
+            "projects": {
+                "match-4-cooperation": {
+                    "name": "Match4Cooperation",
+                    "description": "Ulysseus Match4Cooperation tiene como objetivo reunir a la comunidad de investigación de la Universidad Europea Ulysseus. Permite a los investigadores de la red Ulysseus intercambiar sobre su trabajo, cooperar en convocatorias de proyectos europeos y encontrar oportunidades de movilidad."
+                },
+                "invenio-rdm": {
+                    "name": "Invenio RDM",
+                    "description": "InvenioRDM es una plataforma de código abierto desarrollada por CERN para la gestión y el intercambio de datos de investigación, que ofrece funciones avanzadas para la carga, búsqueda y preservación de datos científicos."
+                },
+                "airflow": {
+                    "name": "AirFlow",
+                    "description": "Desarrollo de un sistema de monitoreo automatizado (PINGER) utilizando AirFlow para verificar la disponibilidad de nuestras aplicaciones web y asegurar el seguimiento de la validez de los certificados SSL en nuestros diferentes dominios."
+                },
+                "student-portal": {
+                    "name": "Student Portal",
+                    "description": "Desarrollo de un portal estudiantil centralizado que permite mostrar eventos y actividades organizados en los diferentes campus, facilitando el acceso a la información y la participación de los estudiantes."
+                },
+                "microsoft-azure": {
+                    "name": "Microsoft - Azure",
+                    "description": "Automatización del proceso de agregar nuevos usuarios al tenant Ulysseus mediante un script de Python, facilitando la gestión de accesos e integración de usuarios."
+                },
+                "servers-details": {
+                    "name": "Servers Details",
+                    "description": "Automatización de la recuperación de información detallada sobre los servidores, incluyendo datos de rendimiento, estado y configuración, luego generación de un informe en Excel para un fácil seguimiento y análisis rápido."
+                }
+            }
         }
     },
     "education": {
         "name": "Formación",
         "licence": {
-            "name": "Licenciatura en Sistemas Embebidos",
-            "description": "Lenguajes de programación: C / C++ y VHDL (PIC16, ARDUINO, STM32). Sistema operativo en tiempo real con FreeRTOS. Sistemas operativos: Linux y Windows."
+            "name": "LICENCIA en Sistemas Embebidos",
+            "description": "Lenguajes de programación: C / C++ y VHDL (PIC16, ARDUINO, STM32). Sistemas operativos en tiempo real con FreeRTOS. Sistemas operativos Linux y Windows."
         },
         "bts": {
-            "name": "Técnico Superior en Sistemas Digitales",
-            "description": "Estudio de esquemas, diseño y reparación de placas electrónicas, análisis de señales, programación con Arduino, HTML/CSS."
+            "name": "BTS en Sistemas Digitales",
+            "description": "Estudio de esquemas, diseño y reparación de placas electrónicas, análisis de señales, programación en Arduino, HTML/CSS."
         }
     },
     "competences": {
-        "name": "Habilidades"
+        "name": "Competencias"
     },
     "contact-me": {
         "name": "¡Envíame un mensaje!",
-        "email": "Correo electrónico",
+        "email": "Email",
         "subject": "Asunto",
         "message": "Tu mensaje",
         "send": "Enviar mi mensaje",
         "sended-email": "¡Tu mensaje ha sido enviado con éxito, gracias! ✨",
         "back-home-page": "Volver a la página principal"
     },
-    "cv": "CV tradicional"
+    "cv": "CV clásico"
 }

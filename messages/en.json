@@ -1,8 +1,8 @@
 {
     "about-me": {
         "name": "About",
-        "job": "Full-Stack Developer React & NestJS",
-        "presentation": "Hello👋 I'm 24 years old and a full-stack JavaScript developer. After earning my degree in electronic and computer systems, I decided to specialize in web development. I now have nearly two years of experience as a full-stack JavaScript developer!"
+        "job": "Full-Stack React & Nestjs Developer",
+        "presentation": "Hello👋 I am 24 years old, and I am a full-stack JavaScript developer. After obtaining my degree in electronic and computer systems, I chose to specialize in web development. I now have nearly two years of experience as a full-stack JavaScript developer!"
     },
     "portfolio": {
         "name": "Portfolio",
@@ -12,26 +12,54 @@
         },
         "web-cv": {
             "name": "Web CV",
-            "description": "My Web CV is a modern and interactive application developed with Next.js, offering smooth navigation and an optimized experience thanks to a polished interface and a dark mode. It is designed to present my career in a professional and dynamic way. 🚀"
+            "description": "My Web CV is a modern and interactive application developed with Next.js, offering smooth navigation and an optimized experience through a polished interface and dark mode. It is designed to present my career in a professional and dynamic way. 🚀"
         }
     },
     "experiences": {
         "name": "Experiences",
-        "projet-ulysseus": {
-            "name": "Ulysseus Project",
-            "description": "Development of applications for the Ulysseus alliance of institutions. The main technologies are JavaScript, Python, Linux, and Docker.",
-            "end-date": "now"
+        "universite-cote-d-azur-ulysseus": {
+            "name": "Université Côte d'Azur - Ulysseus",
+            "description": "Development of applications for the Ulysseus alliance of institutions. The main technologies used are JavaScript, Python, Linux, and Docker.",
+            "start-date": "May 2023",
+            "end-date": "now",
+            "more": "Learn More",
+            "projects": {
+                "match-4-cooperation": {
+                    "name": "Match4Cooperation",
+                    "description": "Ulysseus Match4Cooperation aims to bring together the research community of the Ulysseus European University. It enables researchers within the Ulysseus network to share their work, collaborate on European project calls, and find mobility opportunities."
+                },
+                "invenio-rdm": {
+                    "name": "Invenio RDM",
+                    "description": "InvenioRDM is an open-source platform developed by CERN for managing and sharing research data, offering advanced features for data deposit, search, and preservation."
+                },
+                "airflow": {
+                    "name": "AirFlow",
+                    "description": "Development of an automated monitoring system (PINGER) using AirFlow to check the availability of our web applications and track the validity of SSL certificates across our domains."
+                },
+                "student-portal": {
+                    "name": "Student Portal",
+                    "description": "Development of a centralized student portal to display events and activities organized across different campuses, thus facilitating access to information and student participation."
+                },
+                "microsoft-azure": {
+                    "name": "Microsoft - Azure",
+                    "description": "Automation of the process for adding new users to the Ulysseus tenant via a Python script, thus facilitating access management and user integration."
+                },
+                "servers-details": {
+                    "name": "Servers Details",
+                    "description": "Automation of the retrieval of detailed server information, including performance, status, and configuration data, then generating an Excel report for easy tracking and quick analysis."
+                }
+            }
         }
     },
     "education": {
         "name": "Education",
         "licence": {
-            "name": "Bachelor’s Degree in Embedded Systems",
-            "description": "Programming languages: C / C++ and VHDL (PIC16, ARDUINO, STM32). Real-time OS with FreeRTOS. Operating systems: Linux and Windows."
+            "name": "Bachelor's in Embedded Systems",
+            "description": "Programming languages: C / C++ and VHDL (PIC16, ARDUINO, STM32). Real-time OS with FreeRTOS. Linux and Windows operating systems."
         },
         "bts": {
-            "name": "Advanced Technical Diploma in Digital Systems",
-            "description": "Study of schematics, design and troubleshooting on electronic boards, signal analysis, Arduino programming, HTML/CSS."
+            "name": "BTS in Digital Systems",
+            "description": "Study of schematics, design, and troubleshooting on electronic boards, signal analysis, Arduino programming, HTML/CSS."
         }
     },
     "competences": {
@@ -43,8 +71,8 @@
         "subject": "Subject",
         "message": "Your message",
         "send": "Send my message",
-        "sended-email": "Your message has been successfully sent, thank you! ✨",
-        "back-home-page": "Return to the main page"
+        "sended-email": "Your message has been sent successfully, thank you! ✨",
+        "back-home-page": "Return to the home page"
     },
-    "cv": "Traditional CV"
+    "cv": "Classic CV"
 }

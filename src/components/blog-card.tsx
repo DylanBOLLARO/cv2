@@ -14,7 +14,7 @@ export const BlogCard = ({ data }: any) => {
                     src={data.imageSrc}
                     width={500}
                     height={500}
-                    alt={data.title}
+                    alt={data.name}
                 />
             </CardHeader>
             <CardContent className="flex flex-col gap-5 h-full">
@@ -28,7 +28,7 @@ export const BlogCard = ({ data }: any) => {
 
                 <div className="flex flex-col flex-grow min-h-0">
                     <h3 className="text-[1.35rem] font-semibold tracking-tight">
-                        {data.title}
+                        {data.name}
                     </h3>
                     <p className="text-muted-foreground flex-grow">
                         {data.description}
@@ -36,11 +36,11 @@ export const BlogCard = ({ data }: any) => {
                 </div>
 
                 {(data?.leftButton || data?.rightButton) && (
-                    <div className="flex">
+                    <div className="flex gap-3">
                         {data?.leftButton && (
                             <Button
                                 variant={'secondary'}
-                                className="flex mt-6 shadow-none mx-auto"
+                                className="flex shadow-none mx-auto flex-1"
                                 asChild
                             >
                                 {data.leftUrl ? (
@@ -58,9 +58,10 @@ export const BlogCard = ({ data }: any) => {
                                 )}
                             </Button>
                         )}
+
                         {data?.rightButton && (
                             <Button
-                                className="flex mt-6 shadow-none mx-auto"
+                                className="flex shadow-none mx-auto flex-1"
                                 asChild
                             >
                                 {data.rightUrl ? (
@@ -81,9 +82,26 @@ export const BlogCard = ({ data }: any) => {
                     </div>
                 )}
 
-                {(data?.startDate || data?.endDate) && (
-                    <div className="flex justify-end text-muted-foreground font-semibold">
-                        {`${data?.startDate}${data?.endDate ? ` - ${data?.endDate}` : ''}`}
+                {(data?.more || data?.startDate || data?.endDate) && (
+                    <div className="flex gap-3 items-center">
+                        {data?.more && (
+                            <Button
+                                className="flex shadow-none mx-auto flex-1"
+                                asChild
+                            >
+                                <Link
+                                    href={data?.moreUrl}
+                                    className="flex items-center gap-3"
+                                >
+                                    {data?.more} <ChevronRight />
+                                </Link>
+                            </Button>
+                        )}
+                        {(data?.startDate || data?.endDate) && (
+                            <div className="flex justify-end text-muted-foreground font-semibold flex-1">
+                                {`${data?.startDate}${data?.endDate ? ` - ${data?.endDate}` : ''}`}
+                            </div>
+                        )}
                     </div>
                 )}
             </CardContent>
