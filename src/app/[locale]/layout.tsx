@@ -34,6 +34,7 @@ export default async function LocaleLayout({
             <body className={`${GeistSans.variable} antialiased`}>
                 <NextIntlClientProvider>
                     <ThemeProvider
+                        themes={['cyberpunk', 'dark', 'light', 'vintage']}
                         attribute="class"
                         defaultTheme="system"
                         enableSystem

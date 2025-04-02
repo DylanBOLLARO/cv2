@@ -51,7 +51,7 @@ const SkillsCard = ({ listSkills }: any) => {
                         key={i.name}
                         className="flex flex-1 p-3 bg-accent text-nowrap flex-col gap-3 justify-center items-center rounded-md hover:bg-accent/80"
                     >
-                        <p>{i.name}</p>
+                        <p className="text-muted-foreground">{i.name}</p>
                         <Avatar className="rounded-md justify-center">
                             <AvatarImage
                                 src={
