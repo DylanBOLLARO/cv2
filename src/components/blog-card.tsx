@@ -1,45 +1,50 @@
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { Card, CardContent, CardHeader } from '@/components/ui/card'
+import {
+    Card,
+    CardDescription,
+    CardFooter,
+    CardHeader,
+    CardTitle,
+} from '@/components/ui/card'
 import { ChevronRight } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 
 export const BlogCard = ({ data }: any) => {
     return (
-        <Card className="shadow-none overflow-hidden rounded-md h-full">
-            <CardHeader className="p-0 px-1">
+        <Card className={'w-full overflow-hidden'}>
+            <div className="p-2">
                 <Image
-                    className="aspect-video bg-muted w-full rounded-md"
+                    className="aspect-video bg-muted w-full rounded-lg"
                     src={data.imageSrc}
                     width={500}
                     height={500}
                     alt={data.name}
                 />
-            </CardHeader>
-            <CardContent className="flex flex-col gap-5 h-full">
-                {data?.badges && (
-                    <div className="flex items-center gap-3">
-                        {data?.badges?.map((badge: string, index: number) => (
-                            <Badge key={index}>{badge}</Badge>
-                        ))}
-                    </div>
-                )}
+            </div>
 
-                <div className="flex flex-col flex-grow min-h-0">
-                    <h3 className="text-[1.35rem] font-semibold tracking-tight">
-                        {data.name}
-                    </h3>
-                    <p className="text-muted-foreground flex-grow">
-                        {data.description}
-                    </p>
+            {data?.badges && (
+                <div className="flex items-center gap-3 px-6">
+                    {data?.badges?.map((badge: string, index: number) => (
+                        <Badge key={index}>{badge}</Badge>
+                    ))}
                 </div>
+            )}
 
+            <CardHeader className="flex flex-col flex-grow">
+                <CardTitle className="text-xl">{data.name}</CardTitle>
+                <CardDescription className="flex-grow">
+                    {data.description}
+                </CardDescription>
+            </CardHeader>
+
+            <CardFooter className="flex justify-between text-nowrap gap-5">
                 {(data?.leftButton || data?.rightButton) && (
-                    <div className="flex gap-3">
+                    <>
                         {data?.leftButton && (
                             <Button
-                                variant={'secondary'}
+                                variant={'outline'}
                                 className="flex shadow-none mx-auto flex-1"
                                 asChild
                             >
@@ -79,11 +84,11 @@ export const BlogCard = ({ data }: any) => {
                                 )}
                             </Button>
                         )}
-                    </div>
+                    </>
                 )}
 
                 {(data?.knowMore || data?.startDate || data?.endDate) && (
-                    <div className="flex gap-3 items-center">
+                    <>
                         {data?.knowMore && (
                             <Button
                                 className="flex shadow-none mx-auto flex-1"
@@ -102,9 +107,9 @@ export const BlogCard = ({ data }: any) => {
                                 {`${data?.startDate}${data?.endDate ? ` - ${data?.endDate}` : ''}`}
                             </div>
                         )}
-                    </div>
+                    </>
                 )}
-            </CardContent>
+            </CardFooter>
         </Card>
     )
 }
