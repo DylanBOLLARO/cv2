@@ -1,6 +1,8 @@
 'use client'
 
 import { BlogCard } from '@/components/blog-card'
+import { BlogCardContainer } from '@/components/blog-card-container'
+import { HeaderCard } from '@/components/card-title'
 import { Button } from '@/components/ui/button'
 import { Card, CardHeader, CardTitle } from '@/components/ui/card'
 import { experiencesMoreData } from '@/data'
@@ -28,31 +30,19 @@ export default function Page() {
                 `experiences.${experience.name}.projects.${project.slug}.description`
             ),
             slug: project.slug,
-            knowMore: t('know-more'),
+            learnMore: t('learn-more'),
             moreUrl: `/${locale}/experiences/${projectsExperience}/${project.slug}`,
         })) || []
 
+    if (!experience) return <></>
+
     return (
         <>
-            <Card>
-                <CardHeader className="flex relative flex-col sm:flex-row items-center justify-center gap-y-5">
-                    <Button
-                        className="sm:absolute ml-5 left-0 z-10 cursor-pointer"
-                        onClick={() => router.push(`/${locale}/experiences`)}
-                    >
-                        <ChevronLeft />
-                        Back
-                    </Button>
-                    <CardTitle className="text-md text-center md:text-2xl">
-                        {t(`experiences.${experience?.name}.name`)}
-                    </CardTitle>
-                </CardHeader>
-            </Card>
-            <div className="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
-                {translatedProjects.map((project: ProjectItem) => {
-                    return <BlogCard key={project.name} data={project} />
-                })}
-            </div>
+            <HeaderCard
+                title={t('experiences.name')}
+                backButton={() => router.push(`/${locale}/experiences`)}
+            />
+            <BlogCardContainer list={translatedProjects} />
         </>
     )
 }

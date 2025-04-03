@@ -1,7 +1,7 @@
 'use client'
 
-import { BlogCard } from '@/components/blog-card'
-import { Card, CardHeader, CardTitle } from '@/components/ui/card'
+import { BlogCardContainer } from '@/components/blog-card-container'
+import { HeaderCard } from '@/components/card-title'
 import { ProjectItem } from '@/types'
 import { useTranslations } from 'next-intl'
 
@@ -33,18 +33,8 @@ export default function Page() {
 
     return (
         <>
-            <Card>
-                <CardHeader>
-                    <CardTitle className="text-md text-center md:text-2xl">
-                        {t('portfolio.name')}
-                    </CardTitle>
-                </CardHeader>
-            </Card>
-            <div className="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
-                {projectsPortfolio.map((data) => {
-                    return <BlogCard key={data.name} data={data} />
-                })}
-            </div>
+            <HeaderCard title={t('portfolio.name')} />
+            <BlogCardContainer list={projectsPortfolio} />
         </>
     )
 }

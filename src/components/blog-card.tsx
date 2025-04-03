@@ -87,9 +87,9 @@ export const BlogCard = ({ data }: any) => {
                     </>
                 )}
 
-                {(data?.knowMore || data?.startDate || data?.endDate) && (
+                {(data?.learnMore || data?.startDate || data?.endDate) && (
                     <>
-                        {data?.knowMore && (
+                        {data?.learnMore && (
                             <Button
                                 className="flex shadow-none mx-auto flex-1"
                                 asChild
@@ -98,7 +98,7 @@ export const BlogCard = ({ data }: any) => {
                                     href={data?.moreUrl}
                                     className="flex items-center gap-3"
                                 >
-                                    {data?.knowMore} <ChevronRight />
+                                    {data?.learnMore} <ChevronRight />
                                 </Link>
                             </Button>
                         )}

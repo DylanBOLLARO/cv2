@@ -41,7 +41,9 @@ export default async function LocaleLayout({
                         storageKey={'cv-db'}
                     >
                         <Header />
-                        <div className="container mx-auto p-5">{children}</div>
+                        <div className="flex flex-col container mx-auto p-5 gap-y-5">
+                            {children}
+                        </div>
                     </ThemeProvider>
                 </NextIntlClientProvider>
             </body>
