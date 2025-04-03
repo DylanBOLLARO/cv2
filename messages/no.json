@@ -22,7 +22,7 @@
             "description": "Utvikling av applikasjoner for Ulysseus-alliansen av institusjoner. De viktigste teknologiene er JavaScript, Python, Linux og Docker.",
             "start-date": "Mai 2023",
             "end-date": "nå",
-            "more": "Les mer",
+            "projectsExperience": "Les mer",
             "projects": {
                 "match-4-cooperation": {
                     "name": "Match4Cooperation",

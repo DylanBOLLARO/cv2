@@ -5,7 +5,7 @@ export type ProjectItem = {
     slug?: string
     startDate?: string
     endDate?: string
-    more?: string
+    knowMore?: string
     moreUrl?: string
     badges?: string[]
     leftButton?: string

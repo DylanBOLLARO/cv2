@@ -22,7 +22,6 @@
             "description": "Développement d'applications pour l'alliance d'institutions Ulysseus. Les principales technologies sont JavaScript, Python, Linux et Docker.",
             "start-date": "Mai 2023",
             "end-date": "maintenant",
-            "more": "En Savoir Plus",
             "projects": {
                 "match-4-cooperation": {
                     "name": "Match4Cooperation",
@@ -74,5 +73,6 @@
         "sended-email": "Votre message a été envoyé avec succès, merci ! ✨",
         "back-home-page": "Revenir sur la page principale"
     },
-    "cv": "CV classique"
+    "cv": "CV classique",
+    "know-more": "En Savoir Plus"
 }

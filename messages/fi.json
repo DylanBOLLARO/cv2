@@ -22,7 +22,7 @@
             "description": "Sovellusten kehittäminen Ulysseus-instituutioiden liittouman tueksi. Pääteknologioita ovat JavaScript, Python, Linux ja Docker.",
             "start-date": "Toukokuu 2023",
             "end-date": "nykyhetki",
-            "more": "Lisätietoja",
+            "projectsExperience": "Lisätietoja",
             "projects": {
                 "match-4-cooperation": {
                     "name": "Match4Cooperation",

@@ -20,7 +20,7 @@ export default function Page() {
                 'experiences.universite-cote-d-azur-ulysseus.start-date'
             ),
             endDate: t('experiences.universite-cote-d-azur-ulysseus.end-date'),
-            more: t('experiences.universite-cote-d-azur-ulysseus.more'),
+            knowMore: t('know-more'),
             moreUrl: `/${locale}/experiences/universite-cote-d-azur-ulysseus`,
         },
     ]
