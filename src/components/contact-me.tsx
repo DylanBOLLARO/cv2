@@ -66,11 +66,6 @@ export const ContactMe = () => {
 
     return (
         <Card>
-            <CardHeader>
-                <CardTitle className="text-md text-center md:text-2xl">
-                    {t('contact-me.name')}
-                </CardTitle>
-            </CardHeader>
             <CardContent className="flex w-full justify-center">
                 {showMessage && (
                     <div className="flex flex-col gap-5">

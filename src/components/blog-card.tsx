@@ -8,78 +8,85 @@ import {
     CardTitle,
 } from '@/components/ui/card'
 import { ChevronRight } from 'lucide-react'
+import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export const BlogCard = ({ data }: any) => {
+export const BlogCard = ({ data, intl }: any) => {
+    const base_t = useTranslations()
+    const intl_t = useTranslations(intl)
+
     return (
         <Card className={'w-full overflow-hidden'}>
             <div className="p-2">
                 <Image
                     className="aspect-video bg-muted w-full rounded-lg"
-                    src={data.imageSrc}
+                    src={data['image-source']}
+                    alt={data['image-alt']}
                     width={500}
                     height={500}
-                    alt={data.name}
                 />
             </div>
 
-            {data?.badges && (
+            {data?.['badges'] && (
                 <div className="flex items-center gap-3 px-6">
-                    {data?.badges?.map((badge: string, index: number) => (
+                    {data['badges'].map((badge: string, index: number) => (
                         <Badge key={index}>{badge}</Badge>
                     ))}
                 </div>
             )}
 
             <CardHeader className="flex flex-col flex-grow">
-                <CardTitle className="text-xl">{data.name}</CardTitle>
+                <CardTitle className="text-xl">{intl_t('name')}</CardTitle>
                 <CardDescription className="flex-grow">
-                    {data.description}
+                    {intl_t('description')}
                 </CardDescription>
             </CardHeader>
 
             <CardFooter className="flex justify-between text-nowrap gap-5">
-                {(data?.leftButton || data?.rightButton) && (
+                {(data['left-button-text'] || data['right-button-text']) && (
                     <>
-                        {data?.leftButton && (
+                        {data['left-button-text'] && (
                             <Button
                                 variant={'outline'}
                                 className="flex shadow-none mx-auto flex-1"
                                 asChild
                             >
-                                {data.leftUrl ? (
+                                {data['left-button-url'] ? (
                                     <Link
-                                        href={data.leftUrl}
+                                        href={data['left-button-url']}
                                         target="_blank"
                                         className="flex items-center gap-3"
                                     >
-                                        {data?.leftButton} <ChevronRight />
+                                        {data['left-button-text']}{' '}
+                                        <ChevronRight />
                                     </Link>
                                 ) : (
                                     <span>
-                                        {data?.leftButton} <ChevronRight />
+                                        {data['right-button']} <ChevronRight />
                                     </span>
                                 )}
                             </Button>
                         )}
 
-                        {data?.rightButton && (
+                        {data['right-button-text'] && (
                             <Button
                                 className="flex shadow-none mx-auto flex-1"
                                 asChild
                             >
-                                {data.rightUrl ? (
+                                {data['right-button-url'] ? (
                                     <Link
-                                        href={data.rightUrl}
+                                        href={data['right-button-url']}
                                         target="_blank"
                                         className="flex items-center gap-3"
                                     >
-                                        {data?.rightButton} <ChevronRight />
+                                        {data['right-button-text']}{' '}
+                                        <ChevronRight />
                                     </Link>
                                 ) : (
                                     <span>
-                                        {data?.rightButton} <ChevronRight />
+                                        {data['right-button-text']}{' '}
+                                        <ChevronRight />
                                     </span>
                                 )}
                             </Button>
@@ -87,24 +94,26 @@ export const BlogCard = ({ data }: any) => {
                     </>
                 )}
 
-                {(data?.learnMore || data?.startDate || data?.endDate) && (
+                {(data['learn-more'] ||
+                    data['start-date'] ||
+                    data['end-date']) && (
                     <>
-                        {data?.learnMore && (
+                        {data['learn-more'] && (
                             <Button
                                 className="flex shadow-none mx-auto flex-1"
                                 asChild
                             >
                                 <Link
-                                    href={data?.moreUrl}
+                                    href={data['learn-more-url']}
                                     className="flex items-center gap-3"
                                 >
-                                    {data?.learnMore} <ChevronRight />
+                                    {base_t('learn-more')} <ChevronRight />
                                 </Link>
                             </Button>
                         )}
-                        {(data?.startDate || data?.endDate) && (
+                        {(data['start-date'] || data['end-date']) && (
                             <div className="flex justify-end text-muted-foreground font-semibold flex-1">
-                                {`${data?.startDate}${data?.endDate ? ` - ${data?.endDate}` : ''}`}
+                                {`${data['start-date']}${data['end-date'] ? ` - ${data['end-date']}` : ''}`}
                             </div>
                         )}
                     </>
