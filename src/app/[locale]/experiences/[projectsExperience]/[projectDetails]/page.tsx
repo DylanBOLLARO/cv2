@@ -45,34 +45,25 @@ export default function Page() {
                     )}
                 </p>
             </div>
-            <Card className="xl:flex-1 w-full">
-                <CardHeader>
-                    <CardTitle className="text-md text-center md:text-xl">
-                        Objectifs du projet
-                    </CardTitle>
-                </CardHeader>
-            </Card>
-            <Card className="xl:flex-1 w-full">
-                <CardHeader>
-                    <CardTitle className="text-md text-center md:text-xl">
-                        Technologies utilisées
-                    </CardTitle>
-                </CardHeader>
-            </Card>
-            <Card className="xl:flex-1 w-full">
-                <CardHeader>
-                    <CardTitle className="text-md text-center md:text-xl">
-                        Fonctionnalités principales
-                    </CardTitle>
-                </CardHeader>
-            </Card>
-            <Card className="xl:flex-1 w-full">
-                <CardHeader>
-                    <CardTitle className="text-md text-center md:text-xl">
-                        Résultats & Perspectives
-                    </CardTitle>
-                </CardHeader>
-            </Card>
+
+            <HeaderCard title={t(`project-objectives`)} />
+            <p className="flex-2 text-lg">
+                {t(
+                    `experiences.${projectsExperience}.projects.${projectDetails}.project-objectives`
+                )}
+            </p>
+            <HeaderCard title={t(`main-features`)} />
+            <p className="flex-2 text-lg">
+                {t(
+                    `experiences.${projectsExperience}.projects.${projectDetails}.main-features`
+                )}
+            </p>
+            <HeaderCard title={t(`technologies-used`)} />
+            <p className="flex-2 text-lg">
+                {t(
+                    `experiences.${projectsExperience}.projects.${projectDetails}.technologies-used`
+                )}
+            </p>
         </>
     )
 }

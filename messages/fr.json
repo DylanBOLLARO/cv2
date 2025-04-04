@@ -25,27 +25,45 @@
             "projects": {
                 "match-4-cooperation": {
                     "name": "Match4Cooperation",
-                    "description": "Ulysseus Match4Cooperation vise à rassembler la communauté de recherche de l'Université européenne Ulysseus. Il permet aux chercheurs du réseau Ulysseus d'échanger sur leurs travaux, de coopérer sur des appels à projets européens et de trouver des opportunités de mobilités."
+                    "description": "Ulysseus Match4Cooperation vise à rassembler la communauté de recherche de l'Université européenne Ulysseus. Il permet aux chercheurs du réseau Ulysseus d'échanger sur leurs travaux, de coopérer sur des appels à projets européens et de trouver des opportunités de mobilités.",
+                    "project-objectives": "Project objectives",
+                    "main-features": "Fonctionnalités principales",
+                    "technologies-used": "Technologies utilisées"
                 },
                 "invenio-rdm": {
                     "name": "Invenio RDM",
-                    "description": "InvenioRDM est une plateforme open-source développée par le CERN pour la gestion et le partage des données de recherche, offrant des fonctionnalités avancées de dépôt, de recherche et de préservation des données scientifiques."
+                    "description": "InvenioRDM est une plateforme open-source développée par le CERN pour la gestion et le partage des données de recherche, offrant des fonctionnalités avancées de dépôt, de recherche et de préservation des données scientifiques.",
+                    "project-objectives": "Project objectives",
+                    "main-features": "Fonctionnalités principales",
+                    "technologies-used": "Technologies utilisées"
                 },
                 "airflow": {
                     "name": "AirFlow",
-                    "description": "Développement d'un système de surveillance automatisé (PINGER) utilisant AirFlow pour vérifier la disponibilité de nos applications web et assurer le suivi de la validité des certificats SSL sur nos différents domaines."
+                    "description": "Développement d'un système de surveillance automatisé (PINGER) utilisant AirFlow pour vérifier la disponibilité de nos applications web et assurer le suivi de la validité des certificats SSL sur nos différents domaines.",
+                    "project-objectives": "Project objectives",
+                    "main-features": "Fonctionnalités principales",
+                    "technologies-used": "Technologies utilisées"
                 },
                 "student-portal": {
                     "name": "Student Portal",
-                    "description": "Développement d'un portail étudiant centralisé permettant d'afficher les événements et activités organisés sur les différents campus, facilitant ainsi l'accès à l'information et la participation des étudiants."
+                    "description": "Développement d'un portail étudiant centralisé permettant d'afficher les événements et activités organisés sur les différents campus, facilitant ainsi l'accès à l'information et la participation des étudiants.",
+                    "project-objectives": "Project objectives",
+                    "main-features": "Fonctionnalités principales",
+                    "technologies-used": "Technologies utilisées"
                 },
                 "microsoft-azure": {
                     "name": "Microsoft - Azure",
-                    "description": "Automatisation du processus d'ajout de nouveaux utilisateurs au tenant Ulysseus via un script Python, facilitant ainsi la gestion des accès et l'intégration des utilisateurs."
+                    "description": "Automatisation du processus d'ajout de nouveaux utilisateurs au tenant Ulysseus via un script Python, facilitant ainsi la gestion des accès et l'intégration des utilisateurs.",
+                    "project-objectives": "Project objectives",
+                    "main-features": "Fonctionnalités principales",
+                    "technologies-used": "Technologies utilisées"
                 },
                 "servers-details": {
                     "name": "Servers Details",
-                    "description": "Automatisation de la récupération d'informations détaillées sur les serveurs, incluant des données de performance, d'état, et de configuration, puis génération d'un rapport Excel pour un suivi facile et une analyse rapide."
+                    "description": "Automatisation de la récupération d'informations détaillées sur les serveurs, incluant des données de performance, d'état, et de configuration, puis génération d'un rapport Excel pour un suivi facile et une analyse rapide.",
+                    "project-objectives": "Project objectives",
+                    "main-features": "Fonctionnalités principales",
+                    "technologies-used": "Technologies utilisées"
                 }
             }
         }
@@ -74,5 +92,8 @@
         "back-home-page": "Revenir sur la page principale"
     },
     "cv": "CV classique",
-    "learn-more": "En Savoir Plus"
+    "learn-more": "En Savoir Plus",
+    "project-objectives": "Project objectives",
+    "main-features": "Fonctionnalités principales",
+    "technologies-used": "Technologies utilisées"
 }
