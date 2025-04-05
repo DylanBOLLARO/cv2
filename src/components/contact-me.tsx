@@ -28,7 +28,7 @@ const FormSchema = z.object({
     }),
 })
 
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Card, CardContent } from '@/components/ui/card'
 import { useLocale, useTranslations } from 'next-intl'
 import { Textarea } from './ui/textarea'
 import { sendMail } from '@/lib/send-mail'

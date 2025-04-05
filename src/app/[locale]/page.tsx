@@ -3,7 +3,7 @@
 import { AboutMe } from '@/components/about-me'
 import { HeaderCard } from '@/components/card-title'
 import { SkillCardContainer } from '@/components/skill-card-container'
-import { BACKEND, DEVOPS, FRONTEND } from '@/data'
+import { BACKEND, DEVOPS, FRONTEND } from '@/constants/technologies'
 import { useTranslations } from 'next-intl'
 
 export default function HomePage() {

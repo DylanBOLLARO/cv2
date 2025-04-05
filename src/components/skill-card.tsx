@@ -1,18 +1,18 @@
 import { useTheme } from 'next-themes'
 import { Avatar, AvatarImage } from './ui/avatar'
+import { cn } from '@/lib/utils'
 
-export const SkillsCard = ({ listSkills }: any) => {
+export const SkillsCard = ({ listSkills, className = '' }: any) => {
     const { theme } = useTheme()
-
     return (
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-            {listSkills?.items?.map((i: any) => {
+        <div className={cn('grid grid-cols-2 md:grid-cols-3 gap-3', className)}>
+            {listSkills?.map((i: any) => {
                 return (
                     <div
                         key={i.name}
-                        className="flex flex-1 p-3 bg-accent text-nowrap flex-col gap-3 justify-center items-center rounded-md hover:bg-accent/80"
+                        className="flex flex-1 p-3 bg-accent/20 hover:bg-accent/30 text-nowrap flex-col gap-3 justify-center items-center rounded-md"
                     >
-                        <p className="text-muted-foreground">{i.name}</p>
+                        <p>{i.name}</p>
                         <Avatar className="rounded-md justify-center">
                             <AvatarImage
                                 src={

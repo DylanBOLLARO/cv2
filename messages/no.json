@@ -2,51 +2,75 @@
     "about-me": {
         "name": "Om meg",
         "job": "Full-Stack React & Nestjs Utvikler",
-        "presentation": "Hei👋 Jeg er 24 år gammel og er en full-stack JavaScript utvikler. Etter å ha fullført min bachelorgrad i elektroniske og datamaskinsystemer, valgte jeg å spesialisere meg innen webutvikling. Jeg har nå nesten to års erfaring som full-stack JavaScript utvikler!"
+        "presentation": "Hei👋 Jeg er 24 år gammel og en full-stack JavaScript utvikler. Etter å ha fått min bachelorgrad i elektroniske systemer og informatikk, valgte jeg å spesialisere meg på webutvikling. Jeg har nå nesten to års erfaring som full-stack JavaScript utvikler!"
     },
     "portfolio": {
         "name": "Portefølje",
         "overcraft": {
             "name": "Overcraft",
-            "description": "Overcraft er en plattform hvor StarCraft 2 spillere kan lage, organisere og dele sine build orders for bedre læring og optimalisering av strategier. Den tilbyr en interaktiv modus med en timer for å utføre byggingen i sanntid, samt tilpasnings- og redigeringsmuligheter."
+            "description": "Overcraft er en plattform hvor StarCraft 2-spillere kan lage, organisere og dele sine build orders for å lære bedre og optimalisere strategiene sine. Den tilbyr en interaktiv modus med en tidtaker for å utføre byggene i sanntid, samt tilpasnings- og redigeringsalternativer."
         },
         "web-cv": {
             "name": "Web-cv",
-            "description": "Min Web CV er en moderne og interaktiv applikasjon utviklet med Next.js, som tilbyr jevn navigasjon og en optimalisert opplevelse med et pent grensesnitt og mørk modus. Den er designet for å presentere min bakgrunn på en profesjonell og dynamisk måte. 🚀"
+            "description": "Mitt Web CV er en moderne og interaktiv applikasjon utviklet med Next.js, som gir en jevn navigasjon og en optimalisert opplevelse med et elegant grensesnitt og mørkt tema. Det er designet for å presentere min bakgrunn på en profesjonell og dynamisk måte. 🚀"
         }
     },
     "experiences": {
         "name": "Erfaringer",
         "universite-cote-d-azur-ulysseus": {
             "name": "Université Côte d'Azur - Ulysseus",
-            "description": "Utvikling av applikasjoner for Ulysseus-alliansen av institusjoner. De viktigste teknologiene er JavaScript, Python, Linux og Docker.",
+            "description": "Utvikling av applikasjoner for Ulysseus, en allianse av institusjoner. De viktigste teknologiene er JavaScript, Python, Linux og Docker.",
             "start-date": "Mai 2023",
             "end-date": "nå",
-            "projectsExperience": "Les mer",
             "projects": {
                 "match-4-cooperation": {
                     "name": "Match4Cooperation",
-                    "description": "Ulysseus Match4Cooperation har som mål å samle forskningssamfunnet ved Ulysseus European University. Den lar forskere i Ulysseus-nettverket utveksle ideer om deres arbeid, samarbeide om EU-prosjekter og finne muligheter for mobilitet."
+                    "description": "Ulysseus Match4Cooperation har som mål å samle forskningssamfunnet ved det europeiske universitetet Ulysseus. Det gjør det mulig for forskere i Ulysseus-nettverket å utveksle ideer om arbeidet sitt, samarbeide om europeiske prosjektforslag og finne muligheter for mobilitet.",
+                    "developed-features": {
+                        "1": "Optimalisering av backend-ytelsen for systemet for gruppedannelse.",
+                        "2": "Implementering av en søkelinje for å finne brukere basert på universitetet deres."
+                    }
                 },
                 "invenio-rdm": {
                     "name": "Invenio RDM",
-                    "description": "InvenioRDM er en åpen kildekode-plattform utviklet av CERN for håndtering og deling av forskningsdata, og tilbyr avanserte funksjoner for lagring, søk og bevaring av vitenskapelige data."
+                    "description": "InvenioRDM er en åpen kildekode-plattform utviklet av CERN for håndtering og deling av forskningsdata, og tilbyr avanserte funksjoner for lagring, søk og bevaring av vitenskapelige data.",
+                    "developed-features": {
+                        "1": "Omstrukturering av hovedsiden som viser universitetene i Ulysseus-alliansen, med en knapp som lenker til forskernes publikasjoner fra det valgte universitetet.",
+                        "2": "Forbedring av den native søkefunksjonen (begrenset til publikasjoner) via søkelinjen, som nå også viser profiler og organisasjoner som inneholder en referanse til navnet som er angitt.",
+                        "3": "Integrering av en ekstern applikasjon (skjema og data om forskere og deres ekspertiseområder) og full integrasjon i InvenioRDM."
+                    }
                 },
                 "airflow": {
                     "name": "AirFlow",
-                    "description": "Utvikling av et automatisert overvåkningssystem (PINGER) som bruker AirFlow for å sjekke tilgjengeligheten av våre webapplikasjoner og sikre at SSL-sertifikatene er gyldige på våre forskjellige domener."
+                    "description": "Utvikling av et automatisert overvåkingssystem (PINGER) som bruker AirFlow for å sjekke tilgjengeligheten til våre webapplikasjoner og sikre oppfølgingen av gyldigheten til SSL-sertifikatene på våre forskjellige domener.",
+                    "developed-features": {
+                        "1": "Opprettelse av et script `pinger` som kjøres hvert 5. minutt for å sjekke tilgjengeligheten til alle tjenester. Ved nedetid sendes en e-post med feilmeldingen.",
+                        "2": "Utvikling av et script som sjekker SSL-sertifikatene for domenenavn, med påminnelser som sendes 15 dager før de utløper."
+                    }
                 },
                 "student-portal": {
                     "name": "Student Portal",
-                    "description": "Utvikling av en sentralisert studentportal som viser arrangementer og aktiviteter på de forskjellige campusene, noe som gjør det lettere for studentene å få tilgang til informasjon og delta."
+                    "description": "Utvikling av en sentralisert studentportal som viser arrangementer og aktiviteter organisert på de ulike campusene, og som dermed letter tilgang til informasjon og studentdeltakelse.",
+                    "developed-features": {
+                        "1": "Applikasjon utviklet fra bunnen av: initialisering av frontend, backend og distribusjon.",
+                        "2": "Distribusjon og produksjonssetting av den fullstendige applikasjonen på en rute med Ulysseus' domenenavn.",
+                        "3": "Distribusjon av applikasjonen på en rute på Ulysseus-domenet, etterfulgt av kommunikasjon av URL-en for å samle tilbakemeldinger og sikre kontinuerlig forbedring."
+                    }
                 },
                 "microsoft-azure": {
                     "name": "Microsoft - Azure",
-                    "description": "Automatisering av prosessen med å legge til nye brukere i Ulysseus-tenant via et Python-skript, og dermed lette tilgangsstyring og brukerintegrasjon."
+                    "description": "Automatisering av prosessen med å legge til nye brukere til Ulysseus' tenant via et Python-script, som gjør det lettere å administrere tilgang og integrere brukere.",
+                    "developed-features": {
+                        "1": "Forbedring av scriptet for opprettelse av brukerkontoer på Ulysseus' Microsoft Azure-tenant.",
+                        "2": "Opprettelse av et script for synkronisering av distribusjonslister fra en gitt Excel-fil: legge til og fjerne medlemmer samt eiere av aliaset."
+                    }
                 },
                 "servers-details": {
                     "name": "Servers Details",
-                    "description": "Automatisering av innhenting av detaljerte informasjoner om servere, inkludert ytelses-, status- og konfigurasjonsdata, og deretter generering av en Excel-rapport for enkel oppfølging og rask analyse."
+                    "description": "Automatisering av innhenting av detaljerte serverinformasjoner, inkludert ytelse, status og konfigurasjon, og generering av en Excel-rapport for enkel oppfølging og rask analyse.",
+                    "developed-features": {
+                        "1": "Innhenting av informasjon om hver server, inkludert versjonen av Docker installert samt versjonene på Docker-bildene som brukes."
+                    }
                 }
             }
         }
@@ -54,12 +78,16 @@
     "education": {
         "name": "Utdanning",
         "licence": {
-            "name": "Bachelorgrad i Embeddede Systemer",
-            "description": "Programmeringsspråk: C / C++ og VHDL (PIC16, ARDUINO, STM32). Sanntids operativsystem med FreeRTOS. Linux- og Windows-operativsystemer."
+            "name": "BACHELOR i Embedded Systems",
+            "description": "Programmeringsspråk: C / C++ og VHDL (PIC16, ARDUINO, STM32). Realtime OS med FreeRTOS. Operativsystemer Linux og Windows.",
+            "start-date": "2021",
+            "end-date": "2022"
         },
         "bts": {
-            "name": "BTS i Digitale Systemer",
-            "description": "Studier av kretsdiagrammer, design og feilsøking på elektronikkort, signalanalyse, Arduino-programmering, HTML/CSS."
+            "name": "BTS Digitale systemer",
+            "description": "Studie av kretsskjemaer, design og feilsøking på elektroniske kort, signalanalyse, Arduino-programmering, HTML/CSS.",
+            "start-date": "2018",
+            "end-date": "2020"
         }
     },
     "competences": {
@@ -70,9 +98,12 @@
         "email": "E-post",
         "subject": "Emne",
         "message": "Din melding",
-        "send": "Send min melding",
-        "sended-email": "Meldingen din ble sendt med suksess, takk! ✨",
-        "back-home-page": "Tilbake til hjemmesiden"
+        "send": "Send meldingen min",
+        "sended-email": "Meldingen din har blitt sendt med suksess, takk! ✨",
+        "back-home-page": "Tilbake til hovedsiden"
     },
-    "cv": "Tradisjonell CV"
+    "cv": "Klassisk CV",
+    "learn-more": "Lær mer",
+    "developed-features": "Utviklede funksjoner",
+    "technologies-used": "Brukte teknologier"
 }

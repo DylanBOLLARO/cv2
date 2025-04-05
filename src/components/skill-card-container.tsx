@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
 export const SkillCardContainer = ({ skillsList }: any) => {
     return (
         <div className="flex flex-wrap gap-3 w-full">
-            {skillsList.map((stack: any) => {
+            {skillsList?.map((stack: any) => {
                 return (
                     <Card className="xl:flex-1 w-full" key={stack.name}>
                         <CardHeader>
@@ -13,7 +13,7 @@ export const SkillCardContainer = ({ skillsList }: any) => {
                             </CardTitle>
                         </CardHeader>
                         <CardContent>
-                            <SkillsCard listSkills={stack} />
+                            <SkillsCard listSkills={stack.items} />
                         </CardContent>
                     </Card>
                 )

@@ -1,7 +1,7 @@
 'use client'
 
+import { skeleton } from '@/constants/skeleton'
 import { useParams, useRouter } from 'next/navigation'
-import { skeleton } from '../../../../skeleton'
 import { useEffect } from 'react'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -11,7 +11,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
     useEffect(() => {
         if (!validePage) router.push('/')
-    }, [page])
+    }, [page, validePage, router])
 
     return <>{validePage && children}</>
 }

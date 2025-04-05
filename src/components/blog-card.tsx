@@ -113,7 +113,7 @@ export const BlogCard = ({ data, intl }: any) => {
                         )}
                         {(data['start-date'] || data['end-date']) && (
                             <div className="flex justify-end text-muted-foreground font-semibold flex-1">
-                                {`${data['start-date']}${data['end-date'] ? ` - ${data['end-date']}` : ''}`}
+                                {`${intl_t('start-date')}${data['end-date'] ? ` - ${intl_t('end-date')}` : ''}`}
                             </div>
                         )}
                     </>

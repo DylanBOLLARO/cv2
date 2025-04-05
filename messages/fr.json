@@ -26,133 +26,50 @@
                 "match-4-cooperation": {
                     "name": "Match4Cooperation",
                     "description": "Ulysseus Match4Cooperation vise à rassembler la communauté de recherche de l'Université européenne Ulysseus. Il permet aux chercheurs du réseau Ulysseus d'échanger sur leurs travaux, de coopérer sur des appels à projets européens et de trouver des opportunités de mobilités.",
-                    "project-objectives": {
-                        "name": "Project objectives",
-                        "a": "aaaaaaaaaaaaaaaaa",
-                        "b": "bcccccccccccccccccc",
-                        "c": "cbbbbbbbbbbbbb"
-                    },
-                    "main-features": {
-                        "name": "Main Features",
-                        "a": "aaaaaaaaaaaaaaaaa",
-                        "b": "bcccccccccccccccccc",
-                        "c": "cbbbbbbbbbbbbb"
-                    },
-                    "technologies-used": {
-                        "name": "Main Features",
-                        "a": "aaaaaaaaaaaaaaaaa",
-                        "b": "bcccccccccccccccccc",
-                        "c": "cbbbbbbbbbbbbb"
+                    "developed-features": {
+                        "1": "Optimisation des performances backend du système de création de groupes.",
+                        "2": "Mise en place d'une barre de recherche permettant de trouver les utilisateurs en fonction de leur université."
                     }
                 },
                 "invenio-rdm": {
                     "name": "Invenio RDM",
                     "description": "InvenioRDM est une plateforme open-source développée par le CERN pour la gestion et le partage des données de recherche, offrant des fonctionnalités avancées de dépôt, de recherche et de préservation des données scientifiques.",
-                    "project-objectives": {
-                        "name": "Project objectives",
-                        "a": "aaaaaaaaaaaaaaaaa",
-                        "b": "bcccccccccccccccccc",
-                        "c": "cbbbbbbbbbbbbb"
-                    },
-                    "main-features": {
-                        "name": "Main Features",
-                        "a": "aaaaaaaaaaaaaaaaa",
-                        "b": "bcccccccccccccccccc",
-                        "c": "cbbbbbbbbbbbbb"
-                    },
-                    "technologies-used": {
-                        "name": "Main Features",
-                        "a": "aaaaaaaaaaaaaaaaa",
-                        "b": "bcccccccccccccccccc",
-                        "c": "cbbbbbbbbbbbbb"
+                    "developed-features": {
+                        "1": "Refonte de la page principale affichant les universités de l'alliance Ulysseus, avec un bouton redirigeant vers les publications des chercheurs de l'université sélectionnée.",
+                        "2": "Amélioration de la recherche native (limitée aux publications) via la barre de recherche, affichant désormais aussi les profils et organisations contenant une référence au nom indiqué.",
+                        "3": "Fusion d'une application externe (formulaire et données sur les chercheurs et leurs domaines d'expertise) et intégration complète dans InvenioRDM."
                     }
                 },
                 "airflow": {
                     "name": "AirFlow",
                     "description": "Développement d'un système de surveillance automatisé (PINGER) utilisant AirFlow pour vérifier la disponibilité de nos applications web et assurer le suivi de la validité des certificats SSL sur nos différents domaines.",
-                    "project-objectives": {
-                        "name": "Project objectives",
-                        "a": "aaaaaaaaaaaaaaaaa",
-                        "b": "bcccccccccccccccccc",
-                        "c": "cbbbbbbbbbbbbb"
-                    },
-                    "main-features": {
-                        "name": "Main Features",
-                        "a": "aaaaaaaaaaaaaaaaa",
-                        "b": "bcccccccccccccccccc",
-                        "c": "cbbbbbbbbbbbbb"
-                    },
-                    "technologies-used": {
-                        "name": "Main Features",
-                        "a": "aaaaaaaaaaaaaaaaa",
-                        "b": "bcccccccccccccccccc",
-                        "c": "cbbbbbbbbbbbbb"
+                    "developed-features": {
+                        "1": "Création d’un script `pinger` s’exécutant toutes les 5 minutes pour vérifier la disponibilité de l’ensemble des services. En cas d’indisponibilité, un e-mail est envoyé avec le motif de l’erreur détectée.",
+                        "2": "Développement d’un script vérifiant les certificats SSL des noms de domaine, avec envoi de rappels à partir de 15 jours avant leur expiration."
                     }
                 },
                 "student-portal": {
                     "name": "Student Portal",
                     "description": "Développement d'un portail étudiant centralisé permettant d'afficher les événements et activités organisés sur les différents campus, facilitant ainsi l'accès à l'information et la participation des étudiants.",
-                    "project-objectives": {
-                        "name": "Project objectives",
-                        "a": "aaaaaaaaaaaaaaaaa",
-                        "b": "bcccccccccccccccccc",
-                        "c": "cbbbbbbbbbbbbb"
-                    },
-                    "main-features": {
-                        "name": "Main Features",
-                        "a": "aaaaaaaaaaaaaaaaa",
-                        "b": "bcccccccccccccccccc",
-                        "c": "cbbbbbbbbbbbbb"
-                    },
-                    "technologies-used": {
-                        "name": "Main Features",
-                        "a": "aaaaaaaaaaaaaaaaa",
-                        "b": "bcccccccccccccccccc",
-                        "c": "cbbbbbbbbbbbbb"
+                    "developed-features": {
+                        "1": "Application développée à partir de zéro : initialisation des dépôts frontend, backend et déploiement.",
+                        "2": "Déploiement et mise en production de l'application complète sur une route du nom de domaine d'Ulysseus.",
+                        "3": "Déploiement de l'application sur une route du domaine Ulysseus, suivi de la communication de l'URL pour recueillir des retours et assurer une amélioration continue."
                     }
                 },
                 "microsoft-azure": {
                     "name": "Microsoft - Azure",
                     "description": "Automatisation du processus d'ajout de nouveaux utilisateurs au tenant Ulysseus via un script Python, facilitant ainsi la gestion des accès et l'intégration des utilisateurs.",
-                    "project-objectives": {
-                        "name": "Project objectives",
-                        "a": "aaaaaaaaaaaaaaaaa",
-                        "b": "bcccccccccccccccccc",
-                        "c": "cbbbbbbbbbbbbb"
-                    },
-                    "main-features": {
-                        "name": "Main Features",
-                        "a": "aaaaaaaaaaaaaaaaa",
-                        "b": "bcccccccccccccccccc",
-                        "c": "cbbbbbbbbbbbbb"
-                    },
-                    "technologies-used": {
-                        "name": "Main Features",
-                        "a": "aaaaaaaaaaaaaaaaa",
-                        "b": "bcccccccccccccccccc",
-                        "c": "cbbbbbbbbbbbbb"
+                    "developed-features": {
+                        "1": "Amélioration du script de création de comptes utilisateurs sur le tenant Microsoft Azure d'Ulysseus.",
+                        "2": "Création d'un script de synchronisation des listes de distribution à partir d'un fichier Excel donné : ajout et suppression des membres ainsi que des propriétaires de l'alias."
                     }
                 },
                 "servers-details": {
                     "name": "Servers Details",
                     "description": "Automatisation de la récupération d'informations détaillées sur les serveurs, incluant des données de performance, d'état, et de configuration, puis génération d'un rapport Excel pour un suivi facile et une analyse rapide.",
-                    "project-objectives": {
-                        "name": "Project objectives",
-                        "a": "aaaaaaaaaaaaaaaaa",
-                        "b": "bcccccccccccccccccc",
-                        "c": "cbbbbbbbbbbbbb"
-                    },
-                    "main-features": {
-                        "name": "Main Features",
-                        "a": "aaaaaaaaaaaaaaaaa",
-                        "b": "bcccccccccccccccccc",
-                        "c": "cbbbbbbbbbbbbb"
-                    },
-                    "technologies-used": {
-                        "name": "Main Features",
-                        "a": "aaaaaaaaaaaaaaaaa",
-                        "b": "bcccccccccccccccccc",
-                        "c": "cbbbbbbbbbbbbb"
+                    "developed-features": {
+                        "1": "Récupération des informations de chaque serveur, incluant la version de Docker installée ainsi que les versions des images Docker utilisées."
                     }
                 }
             }
@@ -162,11 +79,15 @@
         "name": "Formations",
         "licence": {
             "name": "LICENCE Systèmes Embarqués",
-            "description": "Langages de programmation : C / C++ et VHDL (PIC16, ARDUINO, STM32). OS temps réel avec FreeRTOS. Système d'exploitation Linux et Windows."
+            "description": "Langages de programmation : C / C++ et VHDL (PIC16, ARDUINO, STM32). OS temps réel avec FreeRTOS. Système d'exploitation Linux et Windows.",
+            "start-date": "2021",
+            "end-date": "2022"
         },
         "bts": {
             "name": "BTS Systèmes numériques",
-            "description": "Étude de schémas, conception et dépannage sur cartes électroniques, analyse de signaux, programmation arduino, HTML/CSS."
+            "description": "Étude de schémas, conception et dépannage sur cartes électroniques, analyse de signaux, programmation arduino, HTML/CSS.",
+            "start-date": "2018",
+            "end-date": "2020"
         }
     },
     "competences": {
@@ -183,7 +104,6 @@
     },
     "cv": "CV classique",
     "learn-more": "En Savoir Plus",
-    "project-objectives": "Project objectives",
-    "main-features": "Fonctionnalités principales",
+    "developed-features": "Fonctionnalités développées",
     "technologies-used": "Technologies utilisées"
 }
