@@ -19,15 +19,16 @@ import {
 import { useLocale } from 'next-intl'
 import { redirect } from 'next/navigation'
 import { cn } from '@/lib/utils'
+import { usePathname } from '@/i18n/navigation'
 
 export const LangSelector = ({ className }: any) => {
     const locale = useLocale()
-
+    const pathname = usePathname()
     return (
         <Select
             defaultValue={locale}
             onValueChange={(lang) => {
-                redirect(`/${lang}`)
+                redirect(`/${lang}${pathname}`)
             }}
         >
             <SelectTrigger className={cn('w-full', className)}>

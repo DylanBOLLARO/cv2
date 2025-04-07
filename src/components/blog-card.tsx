@@ -8,13 +8,14 @@ import {
     CardTitle,
 } from '@/components/ui/card'
 import { ChevronRight } from 'lucide-react'
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 import Image from 'next/image'
 import Link from 'next/link'
 
 export const BlogCard = ({ data, intl }: any) => {
     const base_t = useTranslations()
     const intl_t = useTranslations(intl)
+    const locale = useLocale()
 
     return (
         <Card className={'w-full overflow-hidden'}>
@@ -58,7 +59,7 @@ export const BlogCard = ({ data, intl }: any) => {
                                         target="_blank"
                                         className="flex items-center gap-3"
                                     >
-                                        {data['left-button-text']}{' '}
+                                        {data['left-button-text']}
                                         <ChevronRight />
                                     </Link>
                                 ) : (
@@ -80,12 +81,12 @@ export const BlogCard = ({ data, intl }: any) => {
                                         target="_blank"
                                         className="flex items-center gap-3"
                                     >
-                                        {data['right-button-text']}{' '}
+                                        {data['right-button-text']}
                                         <ChevronRight />
                                     </Link>
                                 ) : (
                                     <span>
-                                        {data['right-button-text']}{' '}
+                                        {data['right-button-text']}
                                         <ChevronRight />
                                     </span>
                                 )}
@@ -104,7 +105,7 @@ export const BlogCard = ({ data, intl }: any) => {
                                 asChild
                             >
                                 <Link
-                                    href={data['learn-more-url']}
+                                    href={`/${locale}/${data['learn-more-url']}`}
                                     className="flex items-center gap-3"
                                 >
                                     {base_t('learn-more')} <ChevronRight />

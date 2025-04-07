@@ -12,7 +12,7 @@ export const skeleton: any = {
             'image-alt': `Logo of the University of Nice Cote D'azur`,
             badges: ['Frontend', 'Backend', 'DevOps'],
             'learn-more': true,
-            'learn-more-url': '/experiences/universite-cote-d-azur-ulysseus',
+            'learn-more-url': 'experiences/universite-cote-d-azur-ulysseus',
             'start-date': true,
             'end-date': true,
             projects: {
@@ -22,7 +22,7 @@ export const skeleton: any = {
                     'image-alt': `Logo of the University of Nice Cote D'azur`,
                     'learn-more': true,
                     'learn-more-url':
-                        '/experiences/universite-cote-d-azur-ulysseus/match-4-cooperation',
+                        'experiences/universite-cote-d-azur-ulysseus/match-4-cooperation',
                     'developed-features': g(2),
                     'technologies-used': {
                         items: [
@@ -43,7 +43,7 @@ export const skeleton: any = {
                     'image-alt': `Logo of the University of Nice Cote D'azur`,
                     'learn-more': true,
                     'learn-more-url':
-                        '/experiences/universite-cote-d-azur-ulysseus/invenio-rdm',
+                        'experiences/universite-cote-d-azur-ulysseus/invenio-rdm',
                     'developed-features': g(3),
                     'technologies-used': {
                         items: [
@@ -61,7 +61,7 @@ export const skeleton: any = {
                     'image-alt': `Logo of the University of Nice Cote D'azur`,
                     'learn-more': true,
                     'learn-more-url':
-                        '/experiences/universite-cote-d-azur-ulysseus/microsoft-azure',
+                        'experiences/universite-cote-d-azur-ulysseus/microsoft-azure',
                     'developed-features': g(2),
                     'technologies-used': {
                         items: [
@@ -78,7 +78,7 @@ export const skeleton: any = {
                     'image-alt': `Logo of the University of Nice Cote D'azur`,
                     'learn-more': true,
                     'learn-more-url':
-                        '/experiences/universite-cote-d-azur-ulysseus/airflow',
+                        'experiences/universite-cote-d-azur-ulysseus/airflow',
                     'developed-features': g(2),
                     'technologies-used': {
                         items: [technologies.python, technologies.docker],
@@ -90,7 +90,7 @@ export const skeleton: any = {
                     'image-alt': `Logo of the University of Nice Cote D'azur`,
                     'learn-more': true,
                     'learn-more-url':
-                        '/experiences/universite-cote-d-azur-ulysseus/student-portal',
+                        'experiences/universite-cote-d-azur-ulysseus/student-portal',
                     'developed-features': g(3),
                     'technologies-used': {
                         items: [
@@ -111,7 +111,7 @@ export const skeleton: any = {
                     'image-alt': `Logo of the University of Nice Cote D'azur`,
                     'learn-more': true,
                     'learn-more-url':
-                        '/experiences/universite-cote-d-azur-ulysseus/servers-details',
+                        'experiences/universite-cote-d-azur-ulysseus/servers-details',
                     'developed-features': g(1),
                     'technologies-used': {
                         items: [technologies.python, technologies.docker],
