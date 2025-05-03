@@ -13,6 +13,10 @@
         "web-cv": {
             "name": "Web-cv",
             "description": "Mitt Web CV er en moderne og interaktiv applikasjon utviklet med Next.js, som gir en jevn navigasjon og en optimalisert opplevelse med et elegant grensesnitt og mørkt tema. Det er designet for å presentere min bakgrunn på en profesjonell og dynamisk måte. 🚀"
+        },
+        "godot-tower-defense": {
+            "name": "Godot Tower Defense",
+            "description": "Tower defense-spill utviklet med Godot Engine, inspirert av spillet Vector TD."
         }
     },
     "experiences": {

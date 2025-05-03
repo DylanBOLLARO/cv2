@@ -139,6 +139,13 @@ export const skeleton: any = {
             'right-button-text': `Web CV`,
             'right-button-url': `https://cv.bollarodylan.fr/en`,
         },
+        'godot-tower-defense': {
+            badges: ['Godot Engine', "Photoshop"],
+            'image-source': '/godot-tower-defense.jpg',
+            'image-alt': `godot-tower-defense`,
+            'left-button-text': `GitHub`,
+            'left-button-url': ` https://github.com/DylanBOLLARO/godot-tower-defense.git`,
+        },
     },
     education: {
         licence: {

@@ -13,6 +13,10 @@
         "web-cv": {
             "name": "Web-cv",
             "description": "Web CV:ni on moderni ja interaktiivinen sovellus, joka on kehitetty Next.js:llä, tarjoten sujuvan navigoinnin ja optimoidun käyttökokemuksen tyylikkään käyttöliittymän ja tumma teema -tilan avulla. Se on suunniteltu esittelemään urapolkuni ammattimaisesti ja dynaamisesti. 🚀"
+        },
+        "godot-tower-defense": {
+            "name": "Godot Tower Defense",
+            "description": "Tower defense -peli, joka on kehitetty Godot Engine -moottorilla ja inspiroitunut pelistä Vector TD."
         }
     },
     "experiences": {

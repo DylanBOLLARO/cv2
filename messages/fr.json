@@ -11,8 +11,12 @@
             "description": "Overcraft est une plateforme où les joueurs de StarCraft 2 peuvent créer, organiser et partager leurs builds orders pour mieux apprendre et optimiser leurs stratégies. Elle propose un mode interactif avec un chronomètre pour exécuter les constructions en temps réel, ainsi que des options de personnalisation et d'édition."
         },
         "web-cv": {
-            "name": "Web-cv",
+            "name": "Web CV",
             "description": "Mon Web CV est une application moderne et interactive développée avec Next.js, offrant une navigation fluide et une expérience optimisée grâce à une interface soignée et un mode sombre, il est conçu pour présenter mon parcours de manière professionnelle et dynamique. 🚀"
+        },
+        "godot-tower-defense": {
+            "name": "Godot Tower Defense",
+            "description": "Jeu de type tower defense développé avec Godot Engine, inspiré par le jeu Vector TD."
         }
     },
     "experiences": {
