@@ -12,32 +12,35 @@
         },
         "web-cv": {
             "name": "Web CV",
-            "description": "Mon Web CV est une application moderne et interactive développée avec Next.js, offrant une navigation fluide et une expérience optimisée grâce à une interface soignée et un mode sombre, il est conçu pour présenter mon parcours de manière professionnelle et dynamique. 🚀"
+            "description": "J'ai souhaité créer un site unique regroupant mon CV, mon portfolio et un moyen de me contacter."
         },
-        "godot-tower-defense": {
-            "name": "Godot Tower Defense",
-            "description": "Jeu de type tower defense développé avec Godot Engine, inspiré par le jeu Vector TD."
+        "island-ship": {
+            "name": "Island Ship",
+            "description": "Mon premier jeu de type tower defense, développé avec le moteur Godot en C#."
         }
     },
     "experiences": {
         "name": "Expériences",
         "universite-cote-d-azur-ulysseus": {
             "name": "Université Côte d'Azur - Ulysseus",
-            "description": "Développement d'applications pour l'alliance d'institutions Ulysseus. Les principales technologies sont JavaScript, Python, Linux et Docker.",
+            "description": "Mises à jour des systèmes, développement et maintenance d'applications pour l'alliance d'institutions Ulysseus.",
             "start-date": "Mai 2023",
             "end-date": "maintenant",
             "projects": {
                 "match-4-cooperation": {
-                    "name": "Match4Cooperation",
-                    "description": "Ulysseus Match4Cooperation vise à rassembler la communauté de recherche de l'Université européenne Ulysseus. Il permet aux chercheurs du réseau Ulysseus d'échanger sur leurs travaux, de coopérer sur des appels à projets européens et de trouver des opportunités de mobilités.",
+                    "name": "Match 4 Cooperation",
+                    "description": "Ulysseus Match 4 Cooperation est une application mobile qui vise à rassembler la communauté de recherche d'Ulysseus. Elle permet aux chercheurs d'échanger sur leurs travaux, de coopérer sur des appels à projets européens et de trouver des opportunités de mobilités.",
                     "developed-features": {
-                        "1": "Optimisation des performances backend du système de création de groupes.",
-                        "2": "Mise en place d'une barre de recherche permettant de trouver les utilisateurs en fonction de leur université."
+                        "1": "Refonte du système de création de groupes via l'API Mastodon, réduisant le temps de création qui pouvait dépasser une heure à seulement quelques secondes grâce à l'implémentation d'un système de statuts dans le processus. Ce système permet également de suivre la progression et d'informer l'utilisateur.",
+                        "2": "Utilisation de l'API Mastodon pour afficher les followers et followings sur le profil de l'utilisateur.",
+                        "3": "Amélioration du systéme de recherche des utilisateurs.",
+                        "4": "Amélioration de l'UI globale de l'application.",
+                        "5": "Publication sur les stores Google et Apple."
                     }
                 },
                 "invenio-rdm": {
                     "name": "Invenio RDM",
-                    "description": "InvenioRDM est une plateforme open-source développée par le CERN pour la gestion et le partage des données de recherche, offrant des fonctionnalités avancées de dépôt, de recherche et de préservation des données scientifiques.",
+                    "description": "InvenioRDM est une plateforme open-source développée par le CERN pour la gestion et le partage des données de recherche, offrant des fonctionnalités avancées de dépôt, de recherche et de préservation des données scientifiques. J'ai participé à la rencontre de la communauté des partenaires InvenioRDM qui s'est tenue à Münster, en Allemagne, du 18 au 22 mars 2024. https://inveniosoftware.org/blog/2024-04-23-april-project-meeting-update",
                     "developed-features": {
                         "1": "Refonte de la page principale affichant les universités de l'alliance Ulysseus, avec un bouton redirigeant vers les publications des chercheurs de l'université sélectionnée.",
                         "2": "Amélioration de la recherche native (limitée aux publications) via la barre de recherche, affichant désormais aussi les profils et organisations contenant une référence au nom indiqué.",
@@ -48,8 +51,8 @@
                     "name": "AirFlow",
                     "description": "Développement d'un système de surveillance automatisé (PINGER) utilisant AirFlow pour vérifier la disponibilité de nos applications web et assurer le suivi de la validité des certificats SSL sur nos différents domaines.",
                     "developed-features": {
-                        "1": "Création d’un script `pinger` s’exécutant toutes les 5 minutes pour vérifier la disponibilité de l’ensemble des services. En cas d’indisponibilité, un e-mail est envoyé avec le motif de l’erreur détectée.",
-                        "2": "Développement d’un script vérifiant les certificats SSL des noms de domaine, avec envoi de rappels à partir de 15 jours avant leur expiration."
+                        "1": "Création d'un script `pinger` s'exécutant toutes les 5 minutes pour vérifier la disponibilité de l'ensemble des services. En cas d'indisponibilité, un e-mail est envoyé avec le motif de l'erreur détectée.",
+                        "2": "Développement d'un script vérifiant les certificats SSL des noms de domaine, avec envoi de rappels à partir de 15 jours avant leur expiration."
                     }
                 },
                 "student-portal": {
@@ -57,8 +60,7 @@
                     "description": "Développement d'un portail étudiant centralisé permettant d'afficher les événements et activités organisés sur les différents campus, facilitant ainsi l'accès à l'information et la participation des étudiants.",
                     "developed-features": {
                         "1": "Application développée à partir de zéro : initialisation des dépôts frontend, backend et déploiement.",
-                        "2": "Déploiement et mise en production de l'application complète sur une route du nom de domaine d'Ulysseus.",
-                        "3": "Déploiement de l'application sur une route du domaine Ulysseus, suivi de la communication de l'URL pour recueillir des retours et assurer une amélioration continue."
+                        "2": "Déploiement et mise en production de l'application complète sur une route du nom de domaine d'Ulysseus."
                     }
                 },
                 "microsoft-azure": {
@@ -106,9 +108,9 @@
         "sended-email": "Votre message a été envoyé avec succès, merci ! ✨",
         "back-home-page": "Revenir sur la page principale"
     },
-    "cv": "CV classique",
+    "cv": "Mon CV",
     "learn-more": "En Savoir Plus",
     "developed-features": "Fonctionnalités développées",
     "technologies-used": "Technologies utilisées",
-    "back": "Retour en arrière"
+    "back": "Retour"
 }

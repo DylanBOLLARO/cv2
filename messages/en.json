@@ -1,79 +1,81 @@
 {
     "about-me": {
         "name": "About",
-        "job": "Full-Stack React & Nestjs Developer",
-        "presentation": "Hello👋 I am 24 years old and a full-stack JavaScript developer. After obtaining my degree in electronic and computer systems, I decided to specialize in web development. I now have almost two years of experience as a full-stack JavaScript developer!"
+        "job": "Full-Stack React & NestJS Developer",
+        "presentation": "Hello👋 I am 24 years old and a full-stack JavaScript developer. After earning my bachelor's degree in electronic and computer systems, I chose to specialize in web development. I now have nearly two years of experience as a full-stack JavaScript developer!"
     },
     "portfolio": {
         "name": "Portfolio",
         "overcraft": {
             "name": "Overcraft",
-            "description": "Overcraft is a platform where StarCraft 2 players can create, organize, and share their build orders to better learn and optimize their strategies. It features an interactive mode with a timer to execute builds in real-time, as well as customization and editing options."
+            "description": "Overcraft is a platform where StarCraft 2 players can create, organize, and share their build orders to better learn and optimize their strategies. It offers an interactive mode with a timer to execute builds in real time, along with customization and editing options."
         },
         "web-cv": {
             "name": "Web CV",
-            "description": "My Web CV is a modern and interactive application developed with Next.js, offering smooth navigation and an optimized experience with a polished interface and dark mode. It is designed to present my background in a professional and dynamic way. 🚀"
+            "description": "I wanted to create a unique website combining my resume, portfolio, and a way to contact me."
         },
-        "godot-tower-defense": {
-            "name": "Godot Tower Defense",
-            "description": "Tower defense game developed with Godot Engine, inspired by the game Vector TD."
+        "island-ship": {
+            "name": "Island Ship",
+            "description": "My first tower defense game, developed with the Godot engine in C#."
         }
     },
     "experiences": {
         "name": "Experiences",
         "universite-cote-d-azur-ulysseus": {
             "name": "Université Côte d'Azur - Ulysseus",
-            "description": "Development of applications for the Ulysseus alliance of institutions. The main technologies used are JavaScript, Python, Linux, and Docker.",
+            "description": "System updates, development and maintenance of applications for the Ulysseus alliance of institutions.",
             "start-date": "May 2023",
-            "end-date": "Present",
+            "end-date": "present",
             "projects": {
                 "match-4-cooperation": {
-                    "name": "Match4Cooperation",
-                    "description": "Ulysseus Match4Cooperation aims to bring together the research community of the Ulysseus European University. It allows researchers from the Ulysseus network to exchange their work, collaborate on European project calls, and find mobility opportunities.",
+                    "name": "Match 4 Cooperation",
+                    "description": "Ulysseus Match 4 Cooperation is a mobile app aimed at bringing together the Ulysseus research community. It allows researchers to exchange about their work, collaborate on European project calls, and find mobility opportunities.",
                     "developed-features": {
-                        "1": "Optimization of the backend performance of the group creation system.",
-                        "2": "Implementation of a search bar allowing users to find others based on their university."
+                        "1": "Redesign of the group creation system via the Mastodon API, reducing creation time from over an hour to just a few seconds by implementing a status system during the process. This system also tracks progress and informs the user.",
+                        "2": "Use of the Mastodon API to display followers and followings on the user's profile.",
+                        "3": "Improvement of the user search system.",
+                        "4": "Enhancement of the overall UI of the application.",
+                        "5": "Publication on Google and Apple stores."
                     }
                 },
                 "invenio-rdm": {
                     "name": "Invenio RDM",
-                    "description": "InvenioRDM is an open-source platform developed by CERN for managing and sharing research data, offering advanced features for depositing, searching, and preserving scientific data.",
+                    "description": "InvenioRDM is an open-source platform developed by CERN for managing and sharing research data, offering advanced features for depositing, searching, and preserving scientific data. I participated in the InvenioRDM partner community meeting held in Münster, Germany, from March 18 to 22, 2024. https://inveniosoftware.org/blog/2024-04-23-april-project-meeting-update",
                     "developed-features": {
-                        "1": "Redesign of the main page displaying the Ulysseus alliance universities, with a button linking to the publications of researchers from the selected university.",
-                        "2": "Improvement of native search (limited to publications) via the search bar, now also displaying profiles and organizations containing a reference to the specified name.",
-                        "3": "Merging of an external application (form and data about researchers and their areas of expertise) and full integration into InvenioRDM."
+                        "1": "Redesign of the main page displaying universities of the Ulysseus alliance, with a button redirecting to publications by researchers from the selected university.",
+                        "2": "Improvement of native search (limited to publications) via the search bar, now also showing profiles and organizations referencing the entered name.",
+                        "3": "Merging an external application (form and data on researchers and their expertise domains) with full integration into InvenioRDM."
                     }
                 },
                 "airflow": {
                     "name": "AirFlow",
                     "description": "Development of an automated monitoring system (PINGER) using AirFlow to check the availability of our web applications and track the validity of SSL certificates on our various domains.",
                     "developed-features": {
-                        "1": "Creation of a `pinger` script running every 5 minutes to check the availability of all services. In case of unavailability, an email is sent with the reason for the detected error.",
-                        "2": "Development of a script to check SSL certificates for domain names, with reminders sent 15 days before expiration."
+                        "1": "Creation of a `pinger` script running every 5 minutes to check the availability of all services. In case of downtime, an email is sent with the detected error reason.",
+                        "2": "Development of a script to check SSL certificates of domain names, sending reminders starting 15 days before expiration."
                     }
                 },
                 "student-portal": {
                     "name": "Student Portal",
-                    "description": "Development of a centralized student portal to display events and activities organized across different campuses, making information more accessible and encouraging student participation.",
+                    "description": "Development of a centralized student portal to display events and activities organized across different campuses, facilitating information access and student participation.",
                     "developed-features": {
-                        "1": "Application developed from scratch: initialization of frontend, backend repositories, and deployment.",
-                        "2": "Deployment and production of the complete application on a route of the Ulysseus domain name.",
-                        "3": "Deployment of the application on a route of the Ulysseus domain, followed by communication of the URL for feedback collection and continuous improvement."
+                        "1": "Application developed from scratch: initialization of frontend, backend repositories and deployment.",
+                        "2": "Deployment and production launch of the complete application on a subpath of the Ulysseus domain."
                     }
                 },
                 "microsoft-azure": {
                     "name": "Microsoft - Azure",
-                    "description": "Automation of the process of adding new users to the Ulysseus tenant via a Python script, facilitating access management and user integration.",
+                    "description": "Automation of the process to add new users to the Ulysseus tenant via a Python script, easing access management and user integration.",
                     "developed-features": {
-                        "1": "Improvement of the user account creation script on Ulysseus' Microsoft Azure tenant.",
-                        "2": "Creation of a script for synchronizing distribution lists from a given Excel file: adding and removing members and owners of the alias."
+                        "1": "Improvement of the user account creation script on the Ulysseus Microsoft Azure tenant.",
+                        "2": "Creation of a script to synchronize distribution lists from a given Excel file: adding and removing members and owners of the alias."
                     }
                 },
                 "servers-details": {
                     "name": "Servers Details",
-                    "description": "Automation of retrieving detailed information about servers, including performance, status, and configuration data, followed by generating an Excel report for easy tracking and quick analysis.",
+                    "description": "Automation of retrieving detailed server information, including performance, status, and configuration data, then generating an Excel report for easy tracking and quick analysis.",
                     "developed-features": {
-                        "1": "Retrieval of information for each server, including the installed Docker version and the versions of Docker images used."
+                        "1": "Retrieval of information from each server, including installed Docker version and versions of Docker images used."
                     }
                 }
             }
@@ -83,13 +85,13 @@
         "name": "Education",
         "licence": {
             "name": "Bachelor's Degree in Embedded Systems",
-            "description": "Programming languages: C / C++ and VHDL (PIC16, ARDUINO, STM32). Real-time operating systems with FreeRTOS. Linux and Windows operating systems.",
+            "description": "Programming languages: C / C++ and VHDL (PIC16, ARDUINO, STM32). Real-time OS with FreeRTOS. Linux and Windows operating systems.",
             "start-date": "2021",
             "end-date": "2022"
         },
         "bts": {
-            "name": "BTS in Digital Systems",
-            "description": "Study of circuit diagrams, design, and troubleshooting of electronic boards, signal analysis, Arduino programming, HTML/CSS.",
+            "name": "BTS Digital Systems",
+            "description": "Study of schematics, design and troubleshooting on electronic boards, signal analysis, Arduino programming, HTML/CSS.",
             "start-date": "2018",
             "end-date": "2020"
         }
@@ -103,12 +105,12 @@
         "subject": "Subject",
         "message": "Your message",
         "send": "Send my message",
-        "sended-email": "Your message has been successfully sent, thank you! ✨",
-        "back-home-page": "Back to the main page"
+        "sended-email": "Your message has been sent successfully, thank you! ✨",
+        "back-home-page": "Return to the main page"
     },
-    "cv": "Classic CV",
+    "cv": "My Resume",
     "learn-more": "Learn More",
     "developed-features": "Developed Features",
     "technologies-used": "Technologies Used",
-    "back": "Go back"
+    "back": "Back"
 }

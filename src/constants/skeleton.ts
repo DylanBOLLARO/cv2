@@ -23,7 +23,7 @@ export const skeleton: any = {
                     'learn-more': true,
                     'learn-more-url':
                         'experiences/universite-cote-d-azur-ulysseus/match-4-cooperation',
-                    'developed-features': g(2),
+                    'developed-features': g(5),
                     'technologies-used': {
                         items: [
                             technologies.javascript,
@@ -139,12 +139,12 @@ export const skeleton: any = {
             'right-button-text': `Web CV`,
             'right-button-url': `https://cv.bollarodylan.fr/en`,
         },
-        'godot-tower-defense': {
-            badges: ['Godot Engine', 'Photoshop'],
-            'image-source': '/godot-tower-defense.jpg',
-            'image-alt': `godot-tower-defense`,
+        'island-ship': {
+            badges: ['Godot Engine', 'Photoshop','C#'],
+            'image-source': '/island_ship.jpg',
+            'image-alt': `island-ship`,
             'left-button-text': `GitHub`,
-            'left-button-url': ` https://github.com/DylanBOLLARO/godot-tower-defense.git`,
+            'left-button-url': `https://github.com/DylanBOLLARO/island-ship`,
         },
     },
     education: {
