@@ -140,7 +140,7 @@ export const skeleton: any = {
             'right-button-url': `https://cv.bollarodylan.fr/en`,
         },
         'island-ship': {
-            badges: ['Godot Engine', 'Photoshop','C#'],
+            badges: ['Godot Engine', 'Photoshop', 'C#'],
             'image-source': '/island_ship.jpg',
             'image-alt': `island-ship`,
             'left-button-text': `GitHub`,
