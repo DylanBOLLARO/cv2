@@ -140,7 +140,7 @@ export const skeleton: any = {
             'right-button-url': `https://cv.bollarodylan.fr/en`,
         },
         'godot-tower-defense': {
-            badges: ['Godot Engine', "Photoshop"],
+            badges: ['Godot Engine', 'Photoshop'],
             'image-source': '/godot-tower-defense.jpg',
             'image-alt': `godot-tower-defense`,
             'left-button-text': `GitHub`,

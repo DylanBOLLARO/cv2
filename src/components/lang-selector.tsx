@@ -1,25 +1,25 @@
 import {
-    GB,
-    FR,
-    ES,
-    DE,
-    IT,
-    FI,
-    NO,
-    SE,
-    DK,
-} from 'country-flag-icons/react/3x2'
-import {
     Select,
     SelectContent,
     SelectItem,
     SelectTrigger,
     SelectValue,
 } from '@/components/ui/select'
+import { usePathname } from '@/i18n/navigation'
+import { cn } from '@/lib/utils'
+import {
+    DE,
+    DK,
+    ES,
+    FI,
+    FR,
+    GB,
+    IT,
+    NO,
+    SE,
+} from 'country-flag-icons/react/3x2'
 import { useLocale } from 'next-intl'
 import { redirect } from 'next/navigation'
-import { cn } from '@/lib/utils'
-import { usePathname } from '@/i18n/navigation'
 
 export const LangSelector = ({ className }: any) => {
     const locale = useLocale()
@@ -43,7 +43,7 @@ export const LangSelector = ({ className }: any) => {
                     <FR />
                     Français
                 </SelectItem>
-                <SelectItem value="es">
+                {/* <SelectItem value="es">
                     <ES />
                     Español
                 </SelectItem>
@@ -70,7 +70,7 @@ export const LangSelector = ({ className }: any) => {
                 <SelectItem value="dk">
                     <DK />
                     Dansk
-                </SelectItem>
+                </SelectItem> */}
             </SelectContent>
         </Select>
     )
