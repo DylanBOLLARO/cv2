@@ -2,7 +2,7 @@
     "about-me": {
         "name": "About",
         "job": "Full-Stack React & NestJS Developer",
-        "presentation": "Hello👋 I am 24 years old and a full-stack JavaScript developer. After earning my bachelor's degree in electronic and computer systems, I chose to specialize in web development. I now have nearly two years of experience as a full-stack JavaScript developer!"
+        "presentation": "Hello 👋 I'm a full-stack developer specialized in JavaScript, with particular expertise in React and NestJS. After completing my training in embedded systems, I chose to specialize in web development, a field in which I truly thrive. I've had the opportunity to work on a wide range of projects: web and mobile applications, automation systems, monitoring tools, and even an indie tower defense game. My experience at Université Côte d'Azur, particularly within the European alliance Ulysseus, allowed me to grow in an international, innovative, and open-source-oriented environment. I enjoy designing useful and efficient interfaces, contributing to the deployment of applications, and continuously improving existing systems. Curious, detail-oriented, and passionate, I'm always looking to grow and get involved in meaningful projects."
     },
     "portfolio": {
         "name": "Portfolio",

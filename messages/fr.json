@@ -2,7 +2,7 @@
     "about-me": {
         "name": "À propos",
         "job": "Développeur Full-Stack React & Nestjs",
-        "presentation": "Bonjour👋 J'ai 24 ans et je suis un développeur JavaScript full-stack. Après avoir obtenu ma licence en systèmes électroniques et informatiques, j'ai choisi de me pécialiser dans le développement web. J'ai maintenant près de deux ans d'expérience en tant que développeur JavaScript full-stack !"
+        "presentation": "Bonjour 👋 Je suis développeur full-stack spécialisé en JavaScript, avec une expertise particulière en React et NestJS. Après une formation en systèmes embarqués, j'ai choisi de me spécialiser dans le développement web, un domaine dans lequel je m'épanouis pleinement. J'ai eu l'occasion de travailler sur une grande variété de projets : applications web et mobiles, systèmes d'automatisation, outils de surveillance, et même un jeu vidéo indépendant. Mon expérience au sein de l'Université Côte d'Azur, notamment pour l'alliance européenne Ulysseus, m'a permis d'évoluer dans un environnement international, innovant et open-source. J'aime concevoir des interfaces utiles et performantes, participer à la mise en production d'applications et améliorer en continu les systèmes existants. Curieux, rigoureux et passionné, je cherche constamment à progresser et à m'investir dans des projets qui ont du sens."
     },
     "portfolio": {
         "name": "Portfolio",
