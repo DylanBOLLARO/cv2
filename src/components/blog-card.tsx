@@ -21,7 +21,7 @@ export const BlogCard = ({ data, intl }: any) => {
         <Card className={'w-full overflow-hidden'}>
             <div className="p-2">
                 <Image
-                    className="aspect-video bg-muted w-full rounded-lg"
+                    className="aspect-video bg-muted w-full rounded-lg object-cover"
                     src={data['image-source']}
                     alt={data['image-alt']}
                     width={500}
@@ -39,7 +39,7 @@ export const BlogCard = ({ data, intl }: any) => {
 
             <CardHeader className="flex flex-col flex-grow">
                 <CardTitle className="text-xl">{intl_t('name')}</CardTitle>
-                <CardDescription className="flex-grow">
+                <CardDescription className="flex-grow line-clamp-5">
                     {intl_t('description')}
                 </CardDescription>
             </CardHeader>
