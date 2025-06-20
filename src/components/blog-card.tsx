@@ -29,14 +29,6 @@ export const BlogCard = ({ data, intl }: any) => {
                 />
             </div>
 
-            {data?.['badges'] && (
-                <div className="flex items-center gap-3 px-6">
-                    {data['badges'].map((badge: string, index: number) => (
-                        <Badge key={index}>{badge}</Badge>
-                    ))}
-                </div>
-            )}
-
             <CardHeader className="flex flex-col flex-grow">
                 <CardTitle className="text-xl">{intl_t('name')}</CardTitle>
                 <CardDescription className="flex-grow line-clamp-5">
