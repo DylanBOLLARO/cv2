@@ -1,81 +1,138 @@
 {
     "about-me": {
         "name": "About",
-        "job": "Full-Stack React & NestJS Developer",
-        "presentation": "Hello 👋 I'm a full-stack developer specialized in JavaScript, with particular expertise in React and NestJS. After completing my training in embedded systems, I chose to specialize in web development, a field in which I truly thrive. I've had the opportunity to work on a wide range of projects: web and mobile applications, automation systems, monitoring tools, and even an indie tower defense game. My experience at Université Côte d'Azur, particularly within the European alliance Ulysseus, allowed me to grow in an international, innovative, and open-source-oriented environment. I enjoy designing useful and efficient interfaces, contributing to the deployment of applications, and continuously improving existing systems. Curious, detail-oriented, and passionate, I'm always looking to grow and get involved in meaningful projects."
+        "job": "Full-Stack Developer React & NestJS",
+        "presentation": "Hello 👋 I'm a full-stack developer specializing in JavaScript, with a strong focus on React and NestJS. After training in embedded systems, I decided to specialize in web development, a field where I truly thrive. I've had the opportunity to work on a wide variety of projects: web and mobile applications, automation systems, monitoring tools, indie video games... My experience at Université Côte d'Azur allowed me to grow in an international, innovative, and open-source environment. I enjoy designing useful and efficient interfaces, contributing to the deployment of applications, and continuously improving existing systems. Curious, rigorous, and passionate, I'm always looking to learn more and get involved in new projects."
     },
     "portfolio": {
         "name": "Portfolio",
         "overcraft": {
             "name": "Overcraft",
-            "description": "Overcraft is a platform where StarCraft 2 players can create, organize, and share their build orders to better learn and optimize their strategies. It offers an interactive mode with a timer to execute builds in real time, along with customization and editing options."
+            "description": "Overcraft is a platform where StarCraft 2 players can create, organize, and share their build orders to better learn and optimize their strategies. It features an interactive mode with a timer for real-time execution of builds, along with customization and editing options."
         },
         "web-cv": {
             "name": "Web CV",
-            "description": "I wanted to create a unique website combining my resume, portfolio, and a way to contact me."
+            "description": "This website combines my resume and portfolio in an interactive way, providing a better showcase of my skills, achievements, and technical projects."
         },
         "island-ship": {
             "name": "Island Ship",
-            "description": "My first tower defense game, developed with the Godot engine in C#."
+            "description": "A tower defense game developed with Godot in C#, this project marked my first steps into game development. It allowed me to experiment with enemy management, attack waves, defense logic, and real-time gameplay mechanics."
+        },
+        "ulysseus-toolbox": {
+            "name": "Ulysseus Toolbox",
+            "description": "I developed an intuitive web interface that allows non-technical members of the Ulysseus team to run automated scripts without technical intervention. This solution notably simplifies the synchronization of Microsoft Azure distribution lists from an Excel file hosted on SharePoint. The project was approved right after the prototype presentation, integrated via a fork into the private GitLab, and then deployed to production."
         }
     },
     "experiences": {
-        "name": "Experiences",
+        "name": "Experience",
         "universite-cote-d-azur-ulysseus": {
             "name": "Université Côte d'Azur - Ulysseus",
-            "description": "System updates, development and maintenance of applications for the Ulysseus alliance of institutions.",
+            "description": "System updates, application development and maintenance for the Ulysseus alliance of institutions.",
             "start-date": "May 2023",
             "end-date": "present",
             "projects": {
                 "match-4-cooperation": {
-                    "name": "Match 4 Cooperation",
-                    "description": "Ulysseus Match 4 Cooperation is a mobile app aimed at bringing together the Ulysseus research community. It allows researchers to exchange about their work, collaborate on European project calls, and find mobility opportunities.",
+                    "name": "Match4Cooperation",
+                    "description": "Match4Cooperation (M4C) is a social network developed by the Ulysseus European University Alliance to connect researchers and academic staff, foster collaboration, and increase visibility of European research funding opportunities. Accessible via mobile app or web version, M4C allows Ulysseus members to log in using their university credentials, while guests can join by invitation. The platform facilitates interaction, tracking of research activity, and partner search via the dedicated @projects group. M4C supports researcher mobility and strengthens a collaborative academic community within the Ulysseus alliance.",
                     "developed-features": {
-                        "1": "Redesign of the group creation system via the Mastodon API, reducing creation time from over an hour to just a few seconds by implementing a status system during the process. This system also tracks progress and informs the user.",
-                        "2": "Use of the Mastodon API to display followers and followings on the user's profile.",
-                        "3": "Improvement of the user search system.",
-                        "4": "Enhancement of the overall UI of the application.",
-                        "5": "Publication on Google and Apple stores."
+                        "1": "Redesigned the group creation system using the Mastodon API, reducing creation time from over an hour to just a few seconds by implementing a status tracking system that also informs the user of progress.",
+                        "2": "Used the Mastodon API to display followers and followings on the user profile.",
+                        "3": "Improved the user search system.",
+                        "4": "Enhanced the overall UI of the application.",
+                        "5": "Published the app on the Google and Apple stores."
                     }
                 },
-                "invenio-rdm": {
-                    "name": "Invenio RDM",
-                    "description": "InvenioRDM is an open-source platform developed by CERN for managing and sharing research data, offering advanced features for depositing, searching, and preserving scientific data. I participated in the InvenioRDM partner community meeting held in Münster, Germany, from March 18 to 22, 2024. https://inveniosoftware.org/blog/2024-04-23-april-project-meeting-update",
+                "open-science-repository": {
+                    "name": "Open Science Repository",
+                    "description": "The Ulysseus Open Science Repository is a gateway for exploring and contributing to open access research within the Ulysseus alliance. It is designed to make science produced by Ulysseus accessible to all, enabling users to search for publications and discover innovative work across the alliance.",
                     "developed-features": {
-                        "1": "Redesign of the main page displaying universities of the Ulysseus alliance, with a button redirecting to publications by researchers from the selected university.",
-                        "2": "Improvement of native search (limited to publications) via the search bar, now also showing profiles and organizations referencing the entered name.",
-                        "3": "Merging an external application (form and data on researchers and their expertise domains) with full integration into InvenioRDM."
+                        "1": "Redesigned the homepage displaying Ulysseus alliance universities, with a button redirecting to the publications of the selected university's researchers.",
+                        "2": "Improved native search (initially limited to publications) to now also show profiles and organizations containing references to the entered term.",
+                        "3": "Merged an external application (form and researcher expertise data) and integrated it into InvenioRDM."
+                    },
+                    "fun-facts": {
+                        "1": {
+                            "name": "InvenioRDM Partners Meeting, March 2024",
+                            "description": "I attended the annual InvenioRDM community meeting in Münster, Germany, from March 18–22, 2024. The event gathered 46 participants from over fifteen institutions to collaborate and work on InvenioRDM development. Using the Open Space Technology method, participants proposed and chose discussion topics. We covered topics such as pull request management, version 12 planning, and large file handling. It was a great opportunity for community collaboration and project advancement."
+                        },
+                        "2": {
+                            "name": "External App Integration",
+                            "description": "Due to budget constraints involving a third-party company, we took over an app originally developed by an external provider. We kept the existing database but completely rebuilt the application in Python and JavaScript, preserving the data while modernizing the system."
+                        }
                     }
                 },
                 "airflow": {
                     "name": "AirFlow",
-                    "description": "Development of an automated monitoring system (PINGER) using AirFlow to check the availability of our web applications and track the validity of SSL certificates on our various domains.",
+                    "description": "Development of an automated monitoring system (PINGER) using AirFlow to check the availability of our web applications and monitor the validity of SSL certificates across our domains.",
                     "developed-features": {
-                        "1": "Creation of a `pinger` script running every 5 minutes to check the availability of all services. In case of downtime, an email is sent with the detected error reason.",
-                        "2": "Development of a script to check SSL certificates of domain names, sending reminders starting 15 days before expiration."
+                        "1": "Created a `pinger` script running every 5 minutes to check service availability. If a service is down, an email is sent with the detected error.",
+                        "2": "Developed a script to check SSL certificate validity and send reminders starting 15 days before expiration."
+                    }
+                },
+                "member-curriculum": {
+                    "name": "Member Curriculum",
+                    "description": "This project scrapes the websites of Ulysseus alliance institutions to collect available degree programs. The data is then centralized into a single training directory accessible to students. This system not only better informs students about opportunities within the alliance but also supports double-degree development by identifying similar programs in the same field across institutions (developed entirely from scratch: frontend, backend, and production deployment).",
+                    "developed-features": {
+                        "1": "Created and developed the Git repository for frontend, backend, and deployment components.",
+                        "2": "Developed all parts of the project independently, including scraping data from institutional websites.",
+                        "3": "Designed a training similarity system to suggest multiple programs related to a selected topic.",
+                        "4": "Lead developer of the application.",
+                        "5": "Deployed and launched the application under a subroute of the Ulysseus domain."
+                    },
+                    "fun-facts": {
+                        "1": {
+                            "name": "Student Portal",
+                            "description": "This project will be discontinued and fully integrated into the student platform."
+                        }
                     }
                 },
                 "student-portal": {
                     "name": "Student Portal",
-                    "description": "Development of a centralized student portal to display events and activities organized across different campuses, facilitating information access and student participation.",
+                    "description": "Development of a centralized student portal to display events and activities across campuses, improving information access and student participation. The portal includes features such as listing degree programs offered by Ulysseus, job offers from each institution and surrounding areas, a chat system, and a housing exchange platform to help students find accommodation during exchanges. The app focuses on supporting student mobility.",
                     "developed-features": {
-                        "1": "Application developed from scratch: initialization of frontend, backend repositories and deployment.",
-                        "2": "Deployment and production launch of the complete application on a subpath of the Ulysseus domain."
+                        "1": "Application developed as an extension of the Member Curriculum project.",
+                        "2": "Lead developer of the application.",
+                        "3": "Deployed and launched the application under a subroute of the Ulysseus domain."
+                    },
+                    "fun-facts": {
+                        "1": {
+                            "name": "Member Curriculum",
+                            "description": "Student Portal is an evolution of this project."
+                        }
                     }
                 },
                 "microsoft-azure": {
                     "name": "Microsoft - Azure",
-                    "description": "Automation of the process to add new users to the Ulysseus tenant via a Python script, easing access management and user integration.",
+                    "description": "Automated the process of adding new users to the Ulysseus tenant via a Python script, making access management and onboarding easier.",
                     "developed-features": {
-                        "1": "Improvement of the user account creation script on the Ulysseus Microsoft Azure tenant.",
-                        "2": "Creation of a script to synchronize distribution lists from a given Excel file: adding and removing members and owners of the alias."
+                        "1": "Improved the user account creation script on Ulysseus' Microsoft Azure tenant.",
+                        "2": "Created a script to synchronize distribution lists from an Excel file: adding/removing members and list owners."
+                    },
+                    "fun-facts": {
+                        "1": {
+                            "name": "Ulysseus Toolbox",
+                            "description": "This project inspired the idea to design the user interface for the Ulysseus Toolbox."
+                        }
                     }
                 },
                 "servers-details": {
                     "name": "Servers Details",
-                    "description": "Automation of retrieving detailed server information, including performance, status, and configuration data, then generating an Excel report for easy tracking and quick analysis.",
+                    "description": "Automated the retrieval of detailed server information, including performance, status, and configuration data, with Excel report generation for easy tracking and analysis.",
                     "developed-features": {
-                        "1": "Retrieval of information from each server, including installed Docker version and versions of Docker images used."
+                        "1": "Retrieved information for each server, including the installed Docker version and versions of used Docker images."
+                    }
+                },
+                "expert-database": {
+                    "name": "Experts Database",
+                    "description": "The Ulysseus Experts Database offers academic staff from partner universities the chance to connect and engage in high-impact research, teaching, and innovation initiatives. By completing the form, individuals are added to the database, allowing Ulysseus to reach out when their profile matches specific initiatives like EU project proposals, transnational research groups, teaching activities, conferences, fairs, workshops, or training programs.",
+                    "developed-features": {
+                        "1": "Production deployment of fixes made by the external company."
+                    },
+                    "fun-facts": {
+                        "1": {
+                            "name": "Open Science Repository",
+                            "description": "Experts Database will be discontinued and fully integrated into the Open Science Repository."
+                        }
                     }
                 }
             }
@@ -85,13 +142,13 @@
         "name": "Education",
         "licence": {
             "name": "Bachelor's Degree in Embedded Systems",
-            "description": "Programming languages: C / C++ and VHDL (PIC16, ARDUINO, STM32). Real-time OS with FreeRTOS. Linux and Windows operating systems.",
+            "description": "Programming languages: C / C++ and VHDL (PIC16, ARDUINO, STM32). Real-time operating systems with FreeRTOS. Linux and Windows operating systems.",
             "start-date": "2021",
             "end-date": "2022"
         },
         "bts": {
-            "name": "BTS Digital Systems",
-            "description": "Study of schematics, design and troubleshooting on electronic boards, signal analysis, Arduino programming, HTML/CSS.",
+            "name": "Higher Technical Diploma in Digital Systems",
+            "description": "Circuit diagram analysis, design and troubleshooting of electronic boards, signal analysis, Arduino programming, HTML/CSS.",
             "start-date": "2018",
             "end-date": "2020"
         }
@@ -106,11 +163,12 @@
         "message": "Your message",
         "send": "Send my message",
         "sended-email": "Your message has been sent successfully, thank you! ✨",
-        "back-home-page": "Return to the main page"
+        "back-home-page": "Back to homepage"
     },
     "cv": "My Resume",
     "learn-more": "Learn More",
     "developed-features": "Developed Features",
-    "technologies-used": "Technologies Used",
+    "fun-facts": "Fun Facts",
+    "technologies-used": "Tools and Technologies",
     "back": "Back"
 }

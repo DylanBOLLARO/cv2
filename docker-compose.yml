@@ -18,7 +18,10 @@ services:
         volumes:
             - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
         restart: always
-
+        depends_on:
+            cv:
+                condition: service_started
+                restart: true
 networks:
     vps_nginx_default:
         name: vps_nginx_default

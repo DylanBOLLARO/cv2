@@ -2,7 +2,7 @@
     "about-me": {
         "name": "À propos",
         "job": "Développeur Full-Stack React & Nestjs",
-        "presentation": "Bonjour 👋 Je suis développeur full-stack spécialisé en JavaScript, avec une expertise particulière en React et NestJS. Après une formation en systèmes embarqués, j'ai choisi de me spécialiser dans le développement web, un domaine dans lequel je m'épanouis pleinement. J'ai eu l'occasion de travailler sur une grande variété de projets : applications web et mobiles, systèmes d'automatisation, outils de surveillance, et même un jeu vidéo indépendant. Mon expérience au sein de l'Université Côte d'Azur, notamment pour l'alliance européenne Ulysseus, m'a permis d'évoluer dans un environnement international, innovant et open-source. J'aime concevoir des interfaces utiles et performantes, participer à la mise en production d'applications et améliorer en continu les systèmes existants. Curieux, rigoureux et passionné, je cherche constamment à progresser et à m'investir dans des projets qui ont du sens."
+        "presentation": "Bonjour 👋 Je suis développeur full-stack spécialisé en JavaScript, avec une expertise particulière en React et NestJS. Après une formation en systèmes embarqués, j'ai choisi de me spécialiser dans le développement web, un domaine dans lequel je m'épanouis pleinement. J'ai eu l'occasion de travailler sur une grande variété de projets : applications web et mobiles, systèmes d'automatisation, outils de surveillance, jeu vidéo indépendant... Mon expérience au sein de l'Université Côte d'Azur m'a permis d'évoluer dans un environnement international, innovant et open-source. J'aime concevoir des interfaces utiles et performantes, participer à la mise en production d'applications et améliorer en continu les systèmes existants. Curieux, rigoureux et passionné, je cherche constamment à progresser et à m'investir dans de nouveaux projets."
     },
     "portfolio": {
         "name": "Portfolio",
@@ -12,11 +12,15 @@
         },
         "web-cv": {
             "name": "Web CV",
-            "description": "J'ai souhaité créer un site unique regroupant mon CV, mon portfolio et un moyen de me contacter."
+            "description": "Ce site web regroupe mon CV et mon portfolio de manière interactive, afin de mieux présenter mes compétences, réalisations et projets techniques."
         },
         "island-ship": {
             "name": "Island Ship",
-            "description": "Mon premier jeu de type tower defense, développé avec le moteur Godot en C#."
+            "description": "Jeu de tower defense développé avec Godot en C#, ce projet marque mes premiers pas dans le développement de jeux vidéo. Il m'a permis d'expérimenter la gestion d'ennemis, les vagues d'attaque, la logique de défense et les mécaniques de jeu temps réel."
+        },
+        "ulysseus-toolbox": {
+            "name": "Ulysseus Toolbox",
+            "description": "J'ai développé une interface web intuitive permettant aux membres non techniques de l'équipe Ulysseus d'exécuter des scripts automatisés sans intervention technique. Cette solution facilite notamment la synchronisation des listes de distribution Microsoft Azure à partir d'un fichier Excel hébergé sur SharePoint. Le projet a été validé dès la présentation du prototype, intégré via un fork sur le GitLab privé, puis mis en production."
         }
     },
     "experiences": {
@@ -28,8 +32,8 @@
             "end-date": "maintenant",
             "projects": {
                 "match-4-cooperation": {
-                    "name": "Match 4 Cooperation",
-                    "description": "Ulysseus Match 4 Cooperation est une application mobile qui vise à rassembler la communauté de recherche d'Ulysseus. Elle permet aux chercheurs d'échanger sur leurs travaux, de coopérer sur des appels à projets européens et de trouver des opportunités de mobilités.",
+                    "name": "Match4Cooperation",
+                    "description": "Match4Cooperation (M4C) est un réseau social développé par l'Alliance universitaire européenne Ulysseus pour connecter les chercheurs et personnels académiques, encourager la collaboration et améliorer la visibilité des opportunités de financement de la recherche européenne. Accessible via application mobile ou version web, M4C permet aux membres d'Ulysseus de se connecter avec leurs identifiants universitaires, tandis que les invités peuvent rejoindre sur invitation. La plateforme facilite les échanges, le suivi des activités de recherche et la recherche de partenaires grâce au groupe dédié @projects. M4C favorise la mobilité des chercheurs et renforce une communauté académique collaborative au sein de l'alliance Ulysseus.",
                     "developed-features": {
                         "1": "Refonte du système de création de groupes via l'API Mastodon, réduisant le temps de création qui pouvait dépasser une heure à seulement quelques secondes grâce à l'implémentation d'un système de statuts dans le processus. Ce système permet également de suivre la progression et d'informer l'utilisateur.",
                         "2": "Utilisation de l'API Mastodon pour afficher les followers et followings sur le profil de l'utilisateur.",
@@ -38,13 +42,23 @@
                         "5": "Publication sur les stores Google et Apple."
                     }
                 },
-                "invenio-rdm": {
-                    "name": "Invenio RDM",
-                    "description": "InvenioRDM est une plateforme open-source développée par le CERN pour la gestion et le partage des données de recherche, offrant des fonctionnalités avancées de dépôt, de recherche et de préservation des données scientifiques. J'ai participé à la rencontre de la communauté des partenaires InvenioRDM qui s'est tenue à Münster, en Allemagne, du 18 au 22 mars 2024. https://inveniosoftware.org/blog/2024-04-23-april-project-meeting-update",
+                "open-science-repository": {
+                    "name": "Open Science Repository",
+                    "description": "Le Référentiel de Science Ouverte d'Ulysseus est une porte d'entrée pour explorer et contribuer à la recherche en libre accès au sein de l'alliance Ulysseus. Il est conçu pour rendre la science produite par Ulysseus accessible à tous, permettant aux utilisateurs de rechercher des publications et de découvrir des travaux innovants à travers l'alliance.",
                     "developed-features": {
                         "1": "Refonte de la page principale affichant les universités de l'alliance Ulysseus, avec un bouton redirigeant vers les publications des chercheurs de l'université sélectionnée.",
                         "2": "Amélioration de la recherche native (limitée aux publications) via la barre de recherche, affichant désormais aussi les profils et organisations contenant une référence au nom indiqué.",
-                        "3": "Fusion d'une application externe (formulaire et données sur les chercheurs et leurs domaines d'expertise) et intégration complète dans InvenioRDM."
+                        "3": "Fusion d'une application externe (formulaire et données sur les chercheurs et leurs domaines d'expertise) et intégration dans InvenioRDM."
+                    },
+                    "fun-facts": {
+                        "1": {
+                            "name": "Réunion des partenaires d'InvenioRDM, mars 2024",
+                            "description": "J'ai participé à la réunion annuelle de la communauté InvenioRDM à Münster, en Allemagne, du 18 au 22 mars 2024. Cet événement a réuni 46 participants de plus de quinze institutions pour échanger et travailler sur le développement d'InvenioRDM. Organisée avec la méthode Open Space Technology, la réunion a permis à chacun de proposer et choisir les sujets à discuter. Nous avons notamment abordé la gestion des pull requests, la préparation de la version 12, et la gestion des fichiers volumineux. Ce fut une excellente occasion de collaborer et d'avancer sur les projets de la communauté."
+                        },
+                        "2": {
+                            "name": "Intégration d'une application externe",
+                            "description": "En raison de contraintes budgétaires liées à une entreprise tierce, nous avons repris une application initialement développée par un prestataire externe. Nous avons conservé principalement la base de données existante, tout en reconstruisant entièrement l'application en Python et JavaScript. Cette intégration nous a permis de préserver les données tout en modernisant l'ensemble de l'application."
+                        }
                     }
                 },
                 "airflow": {
@@ -55,12 +69,36 @@
                         "2": "Développement d'un script vérifiant les certificats SSL des noms de domaine, avec envoi de rappels à partir de 15 jours avant leur expiration."
                     }
                 },
+                "member-curriculum": {
+                    "name": "Member Curriculum",
+                    "description": "L'objectif de ce projet est de scraper les sites web des différentes institutions de l'alliance Ulysseus afin de récupérer l'ensemble des diplômes disponibles. Ces données sont ensuite centralisées dans un annuaire unique de formations, accessible aux étudiants. Ce système permet non seulement de mieux informer les étudiants sur les opportunités au sein de l'alliance, mais aussi de favoriser la création de doubles diplômes en identifiant les formations similaires entre les différentes institutions dans un même domaine d'expertise (projet développé entièrement de zéro : frontend, backend et déploiement en production).",
+                    "developed-features": {
+                        "1": "Création et développement du dépôt Git pour les parties frontend, backend et déploiement.",
+                        "2": "Développement complet et autonome des différentes composantes du projet, notamment la partie scraping des sites des différentes institutions.",
+                        "3": "Conception d'un système de similarité des formations afin de proposer plusieurs cursus liés à un même thème sélectionné.",
+                        "4": "Développeur principal de l'application.",
+                        "5": "Déploiement et mise en production de l'application sur une route du nom de domaine d'Ulysseus."
+                    },
+                    "fun-facts": {
+                        "1": {
+                            "name": "Student Portal",
+                            "description": "Ce projet sera arrêté, puis complètement intégré dans la plateforme étudiante."
+                        }
+                    }
+                },
                 "student-portal": {
                     "name": "Student Portal",
-                    "description": "Développement d'un portail étudiant centralisé permettant d'afficher les événements et activités organisés sur les différents campus, facilitant ainsi l'accès à l'information et la participation des étudiants.",
+                    "description": "Développement d'un portail étudiant centralisé permettant d'afficher les événements et activités organisés sur les différents campus, facilitant ainsi l'accès à l'information et la participation des étudiants. Ce portail propose des fonctionnalités telles que la consultation de la liste des diplômes offerts par l'alliance Ulysseus, l'accès aux offres d'emploi disponibles dans chaque institution et ses alentours pour les étudiants, un système de chat ainsi qu'une possibilité d'échange de logements afin d'aider les étudiants à se loger lors d'un échange. Cette application se concentre sur l'accompagnement des étudiants durant leurs mobilités.",
                     "developed-features": {
-                        "1": "Application développée à partir de zéro : initialisation des dépôts frontend, backend et déploiement.",
-                        "2": "Déploiement et mise en production de l'application complète sur une route du nom de domaine d'Ulysseus."
+                        "1": "Application développée à partir du projet Member Ccurriculum.",
+                        "2": "Développeur principal de l'application.",
+                        "3": "Déploiement et mise en production de l'application sur une route du nom de domaine d'Ulysseus."
+                    },
+                    "fun-facts": {
+                        "1": {
+                            "name": "Member Ccurriculum",
+                            "description": "Student Portal est une évolution de ce projet."
+                        }
                     }
                 },
                 "microsoft-azure": {
@@ -69,6 +107,12 @@
                     "developed-features": {
                         "1": "Amélioration du script de création de comptes utilisateurs sur le tenant Microsoft Azure d'Ulysseus.",
                         "2": "Création d'un script de synchronisation des listes de distribution à partir d'un fichier Excel donné : ajout et suppression des membres ainsi que des propriétaires de l'alias."
+                    },
+                    "fun-facts": {
+                        "1": {
+                            "name": "Ulysseus Toolbox",
+                            "description": "C'est ce projet qui m'a donné l'idée de concevoir l'interface utilisateur de l'Ulysseus Toolbox."
+                        }
                     }
                 },
                 "servers-details": {
@@ -76,6 +120,19 @@
                     "description": "Automatisation de la récupération d'informations détaillées sur les serveurs, incluant des données de performance, d'état, et de configuration, puis génération d'un rapport Excel pour un suivi facile et une analyse rapide.",
                     "developed-features": {
                         "1": "Récupération des informations de chaque serveur, incluant la version de Docker installée ainsi que les versions des images Docker utilisées."
+                    }
+                },
+                "expert-database": {
+                    "name": "Experts Database",
+                    "description": "La Base de Données des Experts d'Ulysseus offre une opportunité unique au personnel académique des universités partenaires de se connecter et de s'engager dans des initiatives de recherche, d'enseignement et d'innovation à fort impact. En remplissant le formulaire, les personnes sont intégrées dans la base de données et permettent à Ulysseus de les contacter dès qu'un lien est identifié entre leur profil et certaines initiatives spécifiques, telles que des propositions de projets européens, des groupes de recherche transnationaux, des activités d'enseignement, des conférences, salons, ateliers ou formations.",
+                    "developed-features": {
+                        "1": "Mise en production des correctifs effectués par l'entreprise externe."
+                    },
+                    "fun-facts": {
+                        "1": {
+                            "name": "Open Science Repository",
+                            "description": "Experts Database sera arrêté, puis complètement intégré dans Open Science Repository"
+                        }
                     }
                 }
             }
@@ -110,7 +167,8 @@
     },
     "cv": "Mon CV",
     "learn-more": "En Savoir Plus",
-    "developed-features": "Fonctionnalités développées",
-    "technologies-used": "Technologies utilisées",
+    "developed-features": "Missions réalisées",
+    "fun-facts": "Le petit plus",
+    "technologies-used": "Outils et technologies",
     "back": "Retour"
 }

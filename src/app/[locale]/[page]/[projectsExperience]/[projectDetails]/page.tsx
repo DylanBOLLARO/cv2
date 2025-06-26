@@ -1,5 +1,6 @@
 'use client'
 
+import { BlogCard } from '@/components/blog-card'
 import { HeaderCard } from '@/components/card-title'
 import { SkillsCard } from '@/components/skill-card'
 import { skeleton } from '@/constants/skeleton'
@@ -44,6 +45,29 @@ export default function Page() {
                     {intl_t(`description`)}
                 </p>
             </div>
+
+            {projectsPath['fun-facts']?.items?.length > 0 && (
+                <>
+                    <HeaderCard title={base_t(`fun-facts`)} />
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                        {Object.keys(projectsPath['fun-facts'].items).map(
+                            (slug: any, index: number) => {
+                                return (
+                                    <BlogCard
+                                        key={slug}
+                                        data={
+                                            projectsPath['fun-facts'].items[
+                                                slug
+                                            ]
+                                        }
+                                        intl={`${page}.${projectsExperience}.projects.${projectDetails}.fun-facts.${index + 1}`}
+                                    />
+                                )
+                            }
+                        )}
+                    </div>
+                </>
+            )}
 
             {projectsPath['developed-features'].length > 0 && (
                 <>

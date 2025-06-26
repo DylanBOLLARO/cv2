@@ -31,7 +31,7 @@ export const BlogCard = ({ data, intl }: any) => {
 
             <CardHeader className="flex flex-col flex-grow">
                 <CardTitle className="text-xl">{intl_t('name')}</CardTitle>
-                <CardDescription className="flex-grow line-clamp-5">
+                <CardDescription className="flex-grow line-clamp-5 text-justify">
                     {intl_t('description')}
                 </CardDescription>
             </CardHeader>
@@ -97,7 +97,20 @@ export const BlogCard = ({ data, intl }: any) => {
                                 asChild
                             >
                                 <Link
-                                    href={`/${locale}/${data['learn-more-url']}`}
+                                    target={
+                                        data['learn-more-url'].startsWith(
+                                            'http'
+                                        )
+                                            ? '_blank'
+                                            : '_self'
+                                    }
+                                    href={
+                                        data['learn-more-url'].startsWith(
+                                            'http'
+                                        )
+                                            ? data['learn-more-url']
+                                            : `/${locale}/${data['learn-more-url']}`
+                                    }
                                     className="flex items-center gap-3"
                                 >
                                     {base_t('learn-more')} <ChevronRight />
