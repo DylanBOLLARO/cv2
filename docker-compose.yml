@@ -1,6 +1,8 @@
 services:
     cv:
         container_name: cv
+        ports:
+            - '3010:3010'
         build:
             context: .
         restart: unless-stopped
