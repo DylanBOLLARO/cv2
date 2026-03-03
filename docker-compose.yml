@@ -3,26 +3,8 @@ services:
         container_name: cv
         build:
             context: .
-        restart: always
-        networks:
-            - vps_nginx_default
+        restart: unless-stopped
         volumes:
             - ./public/CV.pdf:/app/public/CV.pdf
         env_file:
             - .env
-    cv-nginx:
-        container_name: cv-nginx
-        image: nginx:1.27.3
-        networks:
-            - vps_nginx_default
-        volumes:
-            - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
-        restart: always
-        depends_on:
-            cv:
-                condition: service_started
-                restart: true
-networks:
-    vps_nginx_default:
-        name: vps_nginx_default
-        external: true
